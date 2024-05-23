@@ -1,0 +1,491 @@
+INFO:2023-12-28 18:32:10,626:magicstore:914:Starting 914 browser profile
+INFO:2023-12-28 18:32:23,468:magicstore:914:Connecting to browser: ws://127.0.0.1:52212/devtools/browser/82c96329-fddb-4ca1-ba33-83f4bee75a6d
+INFO:2023-12-28 18:32:28,490:magicstore:914:Creating new target
+INFO:2023-12-28 18:32:28,566:magicstore:914:Attaching to target id=291C8098AAFB5260CCD56B702F16595D
+INFO:2023-12-28 18:32:28,570:magicstore:914:Navigating to https://magic.store
+INFO:2023-12-28 18:32:31,000:magicstore:914:Click node: Account NodeId(119) touch
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 427, in worker
+    tid = await magicstore_login(conn, acc)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 166, in magicstore_login
+    await click_node(node, type='touch', name='Account')
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 35, in click_node
+    box = await dom.get_box_model(node)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\generated\dom.py", line 181, in get_box_model
+    return await session.execute(cdp.dom.get_box_model(node_id, backend_node_id, object_id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\__init__.py", line 105, in execute
+    raise response
+trio_cdp.BrowserError: BrowserError<code=-32000 message=Could not find node with given id> None
+INFO:2023-12-28 18:32:31,460:magicstore:914:Attaching to target id=291C8098AAFB5260CCD56B702F16595D
+INFO:2023-12-28 18:32:31,541:magicstore:914:Navigating to https://magic.store
+INFO:2023-12-28 18:32:34,519:magicstore:914:Click node: Account NodeId(117) touch
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 427, in worker
+    tid = await magicstore_login(conn, acc)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 166, in magicstore_login
+    await click_node(node, type='touch', name='Account')
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 35, in click_node
+    box = await dom.get_box_model(node)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\generated\dom.py", line 181, in get_box_model
+    return await session.execute(cdp.dom.get_box_model(node_id, backend_node_id, object_id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\__init__.py", line 105, in execute
+    raise response
+trio_cdp.BrowserError: BrowserError<code=-32000 message=Could not find node with given id> None
+INFO:2023-12-28 18:32:34,712:magicstore:914:Attaching to target id=291C8098AAFB5260CCD56B702F16595D
+INFO:2023-12-28 18:32:34,719:magicstore:914:Navigating to https://magic.store
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 427, in worker
+    tid = await magicstore_login(conn, acc)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 165, in magicstore_login
+    [node] = [x for x in nodes if ">Account<" in await dom.get_outer_html(x)]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 165, in <listcomp>
+    [node] = [x for x in nodes if ">Account<" in await dom.get_outer_html(x)]
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\generated\dom.py", line 371, in get_outer_html
+    return await session.execute(cdp.dom.get_outer_html(node_id, backend_node_id, object_id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\__init__.py", line 105, in execute
+    raise response
+trio_cdp.BrowserError: BrowserError<code=-32000 message=Could not find node with given id> None
+INFO:2023-12-28 18:32:39,242:magicstore:914:Attaching to target id=291C8098AAFB5260CCD56B702F16595D
+INFO:2023-12-28 18:32:39,257:magicstore:914:Navigating to https://magic.store
+INFO:2023-12-28 18:32:42,836:magicstore:914:Click node: Account NodeId(111) touch
+INFO:2023-12-28 18:32:44,460:magicstore:914:Gonna vote for all that shit
+INFO:2023-12-28 18:32:44,553:magicstore:914:Attaching to target 291C8098AAFB5260CCD56B702F16595D
+INFO:2023-12-28 18:32:44,636:magicstore:914:Open settings
+INFO:2023-12-28 18:32:44,872:magicstore:914:Click node: Account NodeId(133) mouse
+INFO:2023-12-28 18:32:57,881:magicstore:914:Click node: Settings NodeId(138) touch
+INFO:2023-12-28 18:33:01,056:magicstore:914:Click node: Validations Tasks NodeId(267) touch
+INFO:2023-12-28 18:33:06,152:magicstore:914:Voting page #1
+INFO:2023-12-28 18:33:08,672:magicstore:914:Voting node NodeId(404)
+INFO:2023-12-28 18:33:10,676:magicstore:914:Click node: Vote NodeId(423) touch
+INFO:2023-12-28 18:33:11,805:magicstore:914:Voting for app.summonersarena.io
+INFO:2023-12-28 18:33:11,805:magicstore:914:Click node: Visit project page NodeId(438) enter
+INFO:2023-12-28 18:33:23,201:magicstore:914:Click node: Yes/No radio NodeId(458) mouse
+INFO:2023-12-28 18:33:23,516:magicstore:914:Click node: Next NodeId(449) mouse
+INFO:2023-12-28 18:33:24,567:magicstore:914:Click node: Confirm NodeId(469) mouse
+INFO:2023-12-28 18:33:31,101:metamask:914:Attaching to target id=FE3B02C25C90D77FB9AF6AA978D5CEFE
+INFO:2023-12-28 18:33:31,144:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:33:31,425:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:33:34,013:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#unlock
+INFO:2023-12-28 18:33:36,105:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#
+INFO:2023-12-28 18:33:36,106:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:33:36,106:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/9c4d8550-a5af-11ee-bec2-4deb824d4dc8/signature-request
+INFO:2023-12-28 18:33:36,223:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:33:38,239:magicstore:914:Click node: Collapse NodeId(469) mouse
+INFO:2023-12-28 18:33:39,840:magicstore:914:Click node: Close task NodeId(483) touch
+INFO:2023-12-28 18:33:43,110:magicstore:914:Voting node NodeId(405)
+INFO:2023-12-28 18:33:43,137:magicstore:914:Click node:  NodeId(495) touch
+INFO:2023-12-28 18:33:49,023:magicstore:914:Click node: Vote NodeId(507) touch
+INFO:2023-12-28 18:33:51,888:magicstore:914:Voting for app.spherium.finance
+INFO:2023-12-28 18:33:51,888:magicstore:914:Click node: Visit project page NodeId(521) enter
+INFO:2023-12-28 18:34:02,822:magicstore:914:Click node: Yes/No radio NodeId(541) mouse
+INFO:2023-12-28 18:34:04,419:magicstore:914:Click node: Next NodeId(532) mouse
+INFO:2023-12-28 18:34:06,195:magicstore:914:Click node: Confirm NodeId(552) mouse
+INFO:2023-12-28 18:34:13,642:metamask:914:Attaching to target id=1090DE4A8A9A28C4FC75B52E8592A63A
+INFO:2023-12-28 18:34:13,770:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:34:13,892:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:34:16,270:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:34:16,272:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/b2d88c20-a5af-11ee-bec2-4deb824d4dc8/signature-request
+INFO:2023-12-28 18:34:16,393:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:34:18,320:magicstore:914:Click node: Collapse NodeId(561) mouse
+INFO:2023-12-28 18:34:19,489:magicstore:914:Click node: Close task NodeId(499) touch
+INFO:2023-12-28 18:34:22,913:magicstore:914:Voting node NodeId(406)
+INFO:2023-12-28 18:34:22,916:magicstore:914:Click node:  NodeId(574) touch
+INFO:2023-12-28 18:34:26,580:magicstore:914:Click node: Vote NodeId(586) touch
+INFO:2023-12-28 18:34:28,275:magicstore:914:Voting for alcor.exchange
+INFO:2023-12-28 18:34:28,275:magicstore:914:Click node: Visit project page NodeId(600) enter
+INFO:2023-12-28 18:34:39,430:magicstore:914:Click node: Yes/No radio NodeId(616) mouse
+INFO:2023-12-28 18:34:41,828:magicstore:914:Click node: Next NodeId(611) mouse
+INFO:2023-12-28 18:34:42,976:magicstore:914:Click node: Confirm NodeId(631) mouse
+INFO:2023-12-28 18:34:49,611:metamask:914:Attaching to target id=AADF73691760841A37467E11EC8D764E
+INFO:2023-12-28 18:34:50,050:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:34:50,209:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:34:52,078:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:34:52,080:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/c82ebc70-a5af-11ee-bec2-4deb824d4dc8/signature-request
+INFO:2023-12-28 18:34:52,110:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:34:54,516:magicstore:914:Click node: Collapse NodeId(640) mouse
+INFO:2023-12-28 18:34:55,807:magicstore:914:Click node: Close task NodeId(578) touch
+INFO:2023-12-28 18:34:59,266:magicstore:914:Voting node NodeId(407)
+INFO:2023-12-28 18:34:59,289:magicstore:914:Click node:  NodeId(653) touch
+INFO:2023-12-28 18:35:04,576:magicstore:914:Click node: Vote NodeId(665) touch
+INFO:2023-12-28 18:35:06,083:magicstore:914:Voting for metarun.game
+INFO:2023-12-28 18:35:06,083:magicstore:914:Click node: Visit project page NodeId(679) enter
+INFO:2023-12-28 18:35:16,882:magicstore:914:Click node: Yes/No radio NodeId(695) mouse
+INFO:2023-12-28 18:35:18,212:magicstore:914:Click node: Next NodeId(690) mouse
+INFO:2023-12-28 18:35:21,175:magicstore:914:Click node: Confirm NodeId(710) mouse
+INFO:2023-12-28 18:35:25,861:metamask:914:Attaching to target id=5573D402118937EF8A842A57040DF244
+INFO:2023-12-28 18:35:26,017:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:35:26,046:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:35:28,617:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:35:28,618:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/ddf5aff0-a5af-11ee-bec2-4deb824d4dc8/signature-request
+INFO:2023-12-28 18:35:28,634:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:35:30,834:magicstore:914:Click node: Collapse NodeId(710) mouse
+INFO:2023-12-28 18:35:32,199:magicstore:914:Click node: Close task NodeId(657) touch
+INFO:2023-12-28 18:35:36,654:magicstore:914:Voting node NodeId(408)
+INFO:2023-12-28 18:35:36,851:magicstore:914:Click node:  NodeId(732) touch
+INFO:2023-12-28 18:35:41,938:magicstore:914:Click node: Vote NodeId(744) touch
+INFO:2023-12-28 18:35:43,429:magicstore:914:Voting for holdstation.com
+INFO:2023-12-28 18:35:43,429:magicstore:914:Click node: Visit project page NodeId(758) enter
+INFO:2023-12-28 18:35:54,616:magicstore:914:Click node: Yes/No radio NodeId(774) mouse
+INFO:2023-12-28 18:35:55,980:magicstore:914:Click node: Next NodeId(769) mouse
+INFO:2023-12-28 18:35:56,946:magicstore:914:Click node: Confirm NodeId(789) mouse
+INFO:2023-12-28 18:36:02,588:metamask:914:Attaching to target id=C9B6AE3B7DE1C78F8CF05AA70807196D
+INFO:2023-12-28 18:36:02,737:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:36:02,894:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:36:04,982:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:36:05,008:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/f3bcca80-a5af-11ee-bec2-4deb824d4dc8/signature-request
+INFO:2023-12-28 18:36:05,107:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:36:08,147:magicstore:914:Click node: Collapse NodeId(798) mouse
+INFO:2023-12-28 18:36:09,772:magicstore:914:Click node: Close task NodeId(736) touch
+INFO:2023-12-28 18:36:13,977:magicstore:914:Voting node NodeId(409)
+INFO:2023-12-28 18:36:14,071:magicstore:914:Click node:  NodeId(811) touch
+INFO:2023-12-28 18:36:17,312:magicstore:914:Click node: Vote NodeId(823) touch
+INFO:2023-12-28 18:36:18,611:magicstore:914:Voting for www.daostarter.pro
+INFO:2023-12-28 18:36:18,611:magicstore:914:Click node: Visit project page NodeId(837) enter
+INFO:2023-12-28 18:36:29,515:magicstore:914:Click node: Yes/No radio NodeId(853) mouse
+INFO:2023-12-28 18:36:30,742:magicstore:914:Click node: Next NodeId(848) mouse
+INFO:2023-12-28 18:36:31,989:magicstore:914:Click node: Confirm NodeId(868) mouse
+INFO:2023-12-28 18:36:37,052:metamask:914:Attaching to target id=340D33EC6108A7CD46BD811B543FDAC9
+INFO:2023-12-28 18:36:37,203:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:36:37,302:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:36:39,977:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:36:39,978:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/08677890-a5b0-11ee-bec2-4deb824d4dc8/signature-request
+INFO:2023-12-28 18:36:40,108:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:36:42,772:magicstore:914:Click node: Collapse NodeId(877) mouse
+INFO:2023-12-28 18:36:44,790:magicstore:914:Click node: Close task NodeId(815) touch
+INFO:2023-12-28 18:36:48,254:magicstore:914:Voting node NodeId(410)
+INFO:2023-12-28 18:36:48,306:magicstore:914:Click node:  NodeId(890) touch
+INFO:2023-12-28 18:36:52,345:magicstore:914:Click node: Vote NodeId(902) touch
+INFO:2023-12-28 18:36:53,869:magicstore:914:Voting for www.kraken.com
+INFO:2023-12-28 18:36:53,870:magicstore:914:Click node: Visit project page NodeId(916) enter
+INFO:2023-12-28 18:37:04,667:magicstore:914:Click node: Yes/No radio NodeId(932) mouse
+INFO:2023-12-28 18:37:06,271:magicstore:914:Click node: Next NodeId(927) mouse
+INFO:2023-12-28 18:37:07,584:magicstore:914:Click node: Confirm NodeId(947) mouse
+INFO:2023-12-28 18:37:14,566:metamask:914:Attaching to target id=857D69AF233D5F9971FBFCC3AA85E4EB
+INFO:2023-12-28 18:37:16,932:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:37:17,168:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/1e40bb90-a5b0-11ee-bec2-4deb824d4dc8/signature-request
+INFO:2023-12-28 18:37:18,106:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:37:20,547:magicstore:914:Click node: Collapse NodeId(947) mouse
+INFO:2023-12-28 18:37:22,077:magicstore:914:Click node: Close task NodeId(894) touch
+INFO:2023-12-28 18:37:26,315:magicstore:914:Voting node NodeId(411)
+INFO:2023-12-28 18:37:26,976:magicstore:914:Click node:  NodeId(969) touch
+INFO:2023-12-28 18:37:31,235:magicstore:914:Click node: Vote NodeId(981) touch
+INFO:2023-12-28 18:37:32,767:magicstore:914:Voting for topgoal.io
+INFO:2023-12-28 18:37:32,767:magicstore:914:Click node: Visit project page NodeId(995) enter
+INFO:2023-12-28 18:37:43,138:magicstore:914:Click node: Yes/No radio NodeId(1011) mouse
+INFO:2023-12-28 18:37:44,920:magicstore:914:Click node: Next NodeId(1006) mouse
+INFO:2023-12-28 18:37:46,055:magicstore:914:Click node: Confirm NodeId(1026) mouse
+INFO:2023-12-28 18:37:51,428:metamask:914:Attaching to target id=82FBAEE260FF19A3E468BF9EE718F25B
+INFO:2023-12-28 18:37:51,587:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:37:51,962:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:37:54,149:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:37:54,150:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/34b728f0-a5b0-11ee-bec2-4deb824d4dc8/signature-request
+INFO:2023-12-28 18:37:54,217:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:37:56,807:magicstore:914:Click node: Collapse NodeId(1035) mouse
+INFO:2023-12-28 18:37:57,768:magicstore:914:Click node: Close task NodeId(973) touch
+INFO:2023-12-28 18:38:01,801:magicstore:914:Voting node NodeId(412)
+INFO:2023-12-28 18:38:02,805:magicstore:914:Click node:  NodeId(1048) touch
+INFO:2023-12-28 18:38:07,928:magicstore:914:Click node: Vote NodeId(1060) touch
+INFO:2023-12-28 18:38:09,612:magicstore:914:Voting for get.pillar.fi
+INFO:2023-12-28 18:38:09,612:magicstore:914:Click node: Visit project page NodeId(1074) enter
+INFO:2023-12-28 18:38:20,766:magicstore:914:Click node: Yes/No radio NodeId(1094) mouse
+INFO:2023-12-28 18:38:22,523:magicstore:914:Click node: Next NodeId(1085) mouse
+INFO:2023-12-28 18:38:24,886:magicstore:914:Click node: Confirm NodeId(1105) mouse
+INFO:2023-12-28 18:38:36,017:metamask:914:Attaching to target id=6880029991AB4B0B3575EB66292D0B21
+INFO:2023-12-28 18:38:38,701:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:38:38,714:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/4f088690-a5b0-11ee-bec2-4deb824d4dc8/signature-request
+INFO:2023-12-28 18:38:38,727:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:38:41,850:magicstore:914:Click node: Collapse NodeId(1114) mouse
+INFO:2023-12-28 18:38:44,749:magicstore:914:Click node: Close task NodeId(1052) touch
+INFO:2023-12-28 18:38:49,566:magicstore:914:Voting node NodeId(413)
+INFO:2023-12-28 18:38:49,611:magicstore:914:Click node:  NodeId(1127) touch
+INFO:2023-12-28 18:38:54,084:magicstore:914:Click node: Vote NodeId(1139) touch
+INFO:2023-12-28 18:38:55,149:magicstore:914:Voting for launcher.paramlabs.io
+INFO:2023-12-28 18:38:55,149:magicstore:914:Click node: Visit project page NodeId(1153) enter
+INFO:2023-12-28 18:39:05,731:magicstore:914:Click node: Yes/No radio NodeId(1173) mouse
+INFO:2023-12-28 18:39:06,078:magicstore:914:Click node: Next NodeId(1164) mouse
+INFO:2023-12-28 18:39:07,242:magicstore:914:Click node: Confirm NodeId(1184) mouse
+INFO:2023-12-28 18:39:11,305:metamask:914:Attaching to target id=37A8F9968F5AC37F4E702C6AD8FB94D0
+INFO:2023-12-28 18:39:11,855:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:39:12,119:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:39:13,698:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:39:13,698:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/6459add0-a5b0-11ee-bec2-4deb824d4dc8/signature-request
+INFO:2023-12-28 18:39:13,794:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:39:15,327:magicstore:914:Click node: Collapse NodeId(1184) mouse
+INFO:2023-12-28 18:39:17,683:magicstore:914:Click node: Close task NodeId(1131) touch
+INFO:2023-12-28 18:39:32,420:magicstore:914:Click node: Next page NodeId(1324) touch
+INFO:2023-12-28 18:39:35,266:magicstore:914:Click node: Next page NodeId(1324) enter
+INFO:2023-12-28 18:39:36,479:magicstore:914:Click node: Next page NodeId(1324) enter
+INFO:2023-12-28 18:39:40,892:magicstore:914:Voting page #2
+INFO:2023-12-28 18:39:43,424:magicstore:914:Voting node NodeId(1466)
+INFO:2023-12-28 18:39:45,489:magicstore:914:Click node: Vote NodeId(1485) touch
+INFO:2023-12-28 18:39:47,429:magicstore:914:Voting for dappad.app
+INFO:2023-12-28 18:39:47,429:magicstore:914:Click node: Visit project page NodeId(1500) enter
+INFO:2023-12-28 18:39:57,792:magicstore:914:Click node: Yes/No radio NodeId(1516) mouse
+INFO:2023-12-28 18:39:58,212:magicstore:914:Click node: Next NodeId(1511) mouse
+INFO:2023-12-28 18:39:59,774:magicstore:914:Click node: Confirm NodeId(1531) mouse
+INFO:2023-12-28 18:40:59,774:magicstore:914:Click node: Confirm NodeId(1531) mouse
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 430, in worker
+    await magicstore_vote(conn, acc)
+  File "C:\Users\Administrator\magicstore\asd.py", line 298, in magicstore_vote
+    total += (nVotes := await magicstore_vote_page(conn, session, acc))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 254, in magicstore_vote_page
+    await query_and_click_node(root, 'div[role="dialog"] button.button-solid-primary',
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 127, in query_and_click_node
+    await click_node(node, **cn_args)
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 34, in click_node
+    if focus: await dom.focus(node)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\generated\dom.py", line 151, in focus
+    return await session.execute(cdp.dom.focus(node_id, backend_node_id, object_id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\__init__.py", line 105, in execute
+    raise response
+trio_cdp.BrowserError: BrowserError<code=-32000 message=Element is not focusable> None
+INFO:2023-12-28 18:40:59,822:magicstore:914:Attaching to target id=291C8098AAFB5260CCD56B702F16595D
+INFO:2023-12-28 18:40:59,826:magicstore:914:Navigating to https://magic.store
+INFO:2023-12-28 18:41:02,794:magicstore:914:Click node: Account NodeId(116) touch
+ERROR:2023-12-28 18:41:04,774:trio_cdp:914:Unable to send event "AttributeModified(node_id=NodeId(129), name='data-darkreader-inline-border-top', value='')" due to full channel <send channel at 0x1b0db2c1b50, using buffer at 0x1b0df29e680>
+ERROR:2023-12-28 18:41:04,775:trio_cdp:914:Unable to send event "AttributeModified(node_id=NodeId(129), name='data-darkreader-inline-border-right', value='')" due to full channel <send channel at 0x1b0db2c1b50, using buffer at 0x1b0df29e680>
+ERROR:2023-12-28 18:41:04,775:trio_cdp:914:Unable to send event "AttributeModified(node_id=NodeId(129), name='data-darkreader-inline-border-bottom', value='')" due to full channel <send channel at 0x1b0db2c1b50, using buffer at 0x1b0df29e680>
+ERROR:2023-12-28 18:41:04,775:trio_cdp:914:Unable to send event "AttributeModified(node_id=NodeId(129), name='data-darkreader-inline-border-left', value='')" due to full channel <send channel at 0x1b0db2c1b50, using buffer at 0x1b0df29e680>
+INFO:2023-12-28 18:41:04,777:magicstore:914:Gonna vote for all that shit
+INFO:2023-12-28 18:41:04,790:magicstore:914:Attaching to target 291C8098AAFB5260CCD56B702F16595D
+INFO:2023-12-28 18:41:04,792:magicstore:914:Open settings
+INFO:2023-12-28 18:41:04,803:magicstore:914:Click node: Account NodeId(136) mouse
+INFO:2023-12-28 18:41:15,804:magicstore:914:Click node: Settings NodeId(144) touch
+INFO:2023-12-28 18:41:18,309:magicstore:914:Click node: Validations Tasks NodeId(275) touch
+INFO:2023-12-28 18:41:23,675:magicstore:914:Voting page #1
+INFO:2023-12-28 18:41:26,202:magicstore:914:Voting node NodeId(414)
+INFO:2023-12-28 18:41:28,207:magicstore:914:Click node: Vote NodeId(433) touch
+INFO:2023-12-28 18:41:29,369:magicstore:914:Voting for launcher.paramlabs.io
+INFO:2023-12-28 18:41:29,369:magicstore:914:Click node: Visit project page NodeId(448) enter
+INFO:2023-12-28 18:41:39,911:magicstore:914:Click node: Yes/No radio NodeId(464) mouse
+INFO:2023-12-28 18:41:40,921:magicstore:914:Click node: Next NodeId(459) mouse
+INFO:2023-12-28 18:41:41,051:magicstore:914:Click node: Confirm NodeId(479) mouse
+INFO:2023-12-28 18:42:41,054:magicstore:914:Click node: Confirm NodeId(479) mouse
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 430, in worker
+    await magicstore_vote(conn, acc)
+  File "C:\Users\Administrator\magicstore\asd.py", line 298, in magicstore_vote
+    total += (nVotes := await magicstore_vote_page(conn, session, acc))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 254, in magicstore_vote_page
+    await query_and_click_node(root, 'div[role="dialog"] button.button-solid-primary',
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 127, in query_and_click_node
+    await click_node(node, **cn_args)
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 34, in click_node
+    if focus: await dom.focus(node)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\generated\dom.py", line 151, in focus
+    return await session.execute(cdp.dom.focus(node_id, backend_node_id, object_id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\__init__.py", line 105, in execute
+    raise response
+trio_cdp.BrowserError: BrowserError<code=-32000 message=Element is not focusable> None
+INFO:2023-12-28 18:42:41,312:magicstore:914:Attaching to target id=291C8098AAFB5260CCD56B702F16595D
+INFO:2023-12-28 18:42:41,364:magicstore:914:Navigating to https://magic.store
+INFO:2023-12-28 18:42:44,767:magicstore:914:Click node: Account NodeId(111) touch
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 427, in worker
+    tid = await magicstore_login(conn, acc)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 166, in magicstore_login
+    await click_node(node, type='touch', name='Account')
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 34, in click_node
+    if focus: await dom.focus(node)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\generated\dom.py", line 151, in focus
+    return await session.execute(cdp.dom.focus(node_id, backend_node_id, object_id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\__init__.py", line 105, in execute
+    raise response
+trio_cdp.BrowserError: BrowserError<code=-32000 message=Could not find node with given id> None
+INFO:2023-12-28 18:42:45,338:magicstore:914:Attaching to target id=291C8098AAFB5260CCD56B702F16595D
+INFO:2023-12-28 18:42:45,660:magicstore:914:Navigating to https://magic.store
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 427, in worker
+    tid = await magicstore_login(conn, acc)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 165, in magicstore_login
+    [node] = [x for x in nodes if ">Account<" in await dom.get_outer_html(x)]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 165, in <listcomp>
+    [node] = [x for x in nodes if ">Account<" in await dom.get_outer_html(x)]
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\generated\dom.py", line 371, in get_outer_html
+    return await session.execute(cdp.dom.get_outer_html(node_id, backend_node_id, object_id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\__init__.py", line 105, in execute
+    raise response
+trio_cdp.BrowserError: BrowserError<code=-32000 message=Could not find node with given id> None
+INFO:2023-12-28 18:42:49,465:magicstore:914:Attaching to target id=291C8098AAFB5260CCD56B702F16595D
+INFO:2023-12-28 18:42:49,552:magicstore:914:Navigating to https://magic.store
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 427, in worker
+    tid = await magicstore_login(conn, acc)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 165, in magicstore_login
+    [node] = [x for x in nodes if ">Account<" in await dom.get_outer_html(x)]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 165, in <listcomp>
+    [node] = [x for x in nodes if ">Account<" in await dom.get_outer_html(x)]
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\generated\dom.py", line 371, in get_outer_html
+    return await session.execute(cdp.dom.get_outer_html(node_id, backend_node_id, object_id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\__init__.py", line 105, in execute
+    raise response
+trio_cdp.BrowserError: BrowserError<code=-32000 message=Could not find node with given id> None
+INFO:2023-12-28 18:42:53,232:magicstore:914:Attaching to target id=291C8098AAFB5260CCD56B702F16595D
+INFO:2023-12-28 18:42:53,235:magicstore:914:Navigating to https://magic.store
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 427, in worker
+    tid = await magicstore_login(conn, acc)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 165, in magicstore_login
+    [node] = [x for x in nodes if ">Account<" in await dom.get_outer_html(x)]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 165, in <listcomp>
+    [node] = [x for x in nodes if ">Account<" in await dom.get_outer_html(x)]
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\generated\dom.py", line 371, in get_outer_html
+    return await session.execute(cdp.dom.get_outer_html(node_id, backend_node_id, object_id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\__init__.py", line 105, in execute
+    raise response
+trio_cdp.BrowserError: BrowserError<code=-32000 message=Could not find node with given id> None
+INFO:2023-12-28 18:42:56,638:magicstore:914:Attaching to target id=291C8098AAFB5260CCD56B702F16595D
+INFO:2023-12-28 18:42:56,640:magicstore:914:Navigating to https://magic.store
+INFO:2023-12-28 18:42:59,804:magicstore:914:Click node: Account NodeId(120) touch
+ERROR:2023-12-28 18:43:01,143:trio_cdp:914:Unable to send event "AttributeModified(node_id=NodeId(124), name='data-darkreader-inline-border-top', value='')" due to full channel <send channel at 0x1b0db2cf910, using buffer at 0x1b0df29e920>
+ERROR:2023-12-28 18:43:01,143:trio_cdp:914:Unable to send event "AttributeModified(node_id=NodeId(124), name='data-darkreader-inline-border-right', value='')" due to full channel <send channel at 0x1b0db2cf910, using buffer at 0x1b0df29e920>
+ERROR:2023-12-28 18:43:01,143:trio_cdp:914:Unable to send event "AttributeModified(node_id=NodeId(124), name='data-darkreader-inline-border-bottom', value='')" due to full channel <send channel at 0x1b0db2cf910, using buffer at 0x1b0df29e920>
+ERROR:2023-12-28 18:43:01,143:trio_cdp:914:Unable to send event "AttributeModified(node_id=NodeId(124), name='data-darkreader-inline-border-left', value='')" due to full channel <send channel at 0x1b0db2cf910, using buffer at 0x1b0df29e920>
+INFO:2023-12-28 18:43:01,145:magicstore:914:Gonna vote for all that shit
+INFO:2023-12-28 18:43:01,147:magicstore:914:Attaching to target 291C8098AAFB5260CCD56B702F16595D
+INFO:2023-12-28 18:43:01,150:magicstore:914:Open settings
+INFO:2023-12-28 18:43:01,176:magicstore:914:Click node: Account NodeId(134) mouse
+INFO:2023-12-28 18:43:12,680:magicstore:914:Click node: Settings NodeId(142) touch
+INFO:2023-12-28 18:43:15,451:magicstore:914:Click node: Validations Tasks NodeId(271) touch
+INFO:2023-12-28 18:43:21,013:magicstore:914:Voting page #1
+INFO:2023-12-28 18:43:23,546:magicstore:914:Voting node NodeId(408)
+INFO:2023-12-28 18:43:25,552:magicstore:914:Click node: Vote NodeId(427) touch
+INFO:2023-12-28 18:43:27,050:magicstore:914:Voting for launcher.paramlabs.io
+INFO:2023-12-28 18:43:27,050:magicstore:914:Click node: Visit project page NodeId(442) enter
+INFO:2023-12-28 18:43:37,513:magicstore:914:Click node: Yes/No radio NodeId(458) mouse
+INFO:2023-12-28 18:43:38,360:magicstore:914:Click node: Next NodeId(453) mouse
+INFO:2023-12-28 18:43:39,681:magicstore:914:Click node: Confirm NodeId(473) mouse
+INFO:2023-12-28 18:44:39,832:magicstore:914:Click node: Confirm NodeId(473) mouse
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 430, in worker
+    await magicstore_vote(conn, acc)
+  File "C:\Users\Administrator\magicstore\asd.py", line 298, in magicstore_vote
+    total += (nVotes := await magicstore_vote_page(conn, session, acc))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 254, in magicstore_vote_page
+    await query_and_click_node(root, 'div[role="dialog"] button.button-solid-primary',
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 127, in query_and_click_node
+    await click_node(node, **cn_args)
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 34, in click_node
+    if focus: await dom.focus(node)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\generated\dom.py", line 151, in focus
+    return await session.execute(cdp.dom.focus(node_id, backend_node_id, object_id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\__init__.py", line 105, in execute
+    raise response
+trio_cdp.BrowserError: BrowserError<code=-32000 message=Element is not focusable> None
+https://magic.store
+NavigatedWithinDocument(frame_id=FrameId('291C8098AAFB5260CCD56B702F16595D'), url='https://magic.store/')
+[NodeId(118), NodeId(119)]
+https://magic.store
+NavigatedWithinDocument(frame_id=FrameId('291C8098AAFB5260CCD56B702F16595D'), url='https://magic.store/')
+[NodeId(116), NodeId(117)]
+https://magic.store
+NavigatedWithinDocument(frame_id=FrameId('291C8098AAFB5260CCD56B702F16595D'), url='https://magic.store/')
+[NodeId(116), NodeId(117)]
+https://magic.store
+NavigatedWithinDocument(frame_id=FrameId('291C8098AAFB5260CCD56B702F16595D'), url='https://magic.store/')
+[NodeId(110), NodeId(111)]
+magic.store
+https://magic.store/profile/settings
+NavigatedWithinDocument(frame_id=FrameId('291C8098AAFB5260CCD56B702F16595D'), url='https://magic.store/profile/settings')
+NavigatedWithinDocument(frame_id=FrameId('291C8098AAFB5260CCD56B702F16595D'), url='https://magic.store/profile/validation-tasks')
+AttributeModified(node_id=NodeId(423), name='class', value='button button-solid button-color-green button-xl opacity-40')
+AttributeModified(node_id=NodeId(478), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(483), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(415), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(490), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(485), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(490), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(499), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(485), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(569), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(564), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(648), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(643), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(648), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(657), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(643), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(727), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(722), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(727), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(736), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(722), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(806), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(801), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(806), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(815), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(801), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(885), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(880), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(885), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(894), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(880), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(964), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(959), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(1043), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(1038), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(1043), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(1052), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(1038), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(1122), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(1117), name='class', value='collapsible collapsible-open')
+https://magic.store
+NavigatedWithinDocument(frame_id=FrameId('291C8098AAFB5260CCD56B702F16595D'), url='https://magic.store/')
+[NodeId(115), NodeId(116)]
+magic.store
+https://magic.store/profile/settings
+NavigatedWithinDocument(frame_id=FrameId('291C8098AAFB5260CCD56B702F16595D'), url='https://magic.store/profile/settings')
+NavigatedWithinDocument(frame_id=FrameId('291C8098AAFB5260CCD56B702F16595D'), url='https://magic.store/profile/validation-tasks')
+https://magic.store
+NavigatedWithinDocument(frame_id=FrameId('291C8098AAFB5260CCD56B702F16595D'), url='https://magic.store/')
+[NodeId(110), NodeId(111)]
+https://magic.store
+NavigatedWithinDocument(frame_id=FrameId('291C8098AAFB5260CCD56B702F16595D'), url='https://magic.store/')
+[NodeId(115), NodeId(116)]
+https://magic.store
+NavigatedWithinDocument(frame_id=FrameId('291C8098AAFB5260CCD56B702F16595D'), url='https://magic.store/')
+[NodeId(111), NodeId(112)]
+https://magic.store
+NavigatedWithinDocument(frame_id=FrameId('291C8098AAFB5260CCD56B702F16595D'), url='https://magic.store/')
+[NodeId(117), NodeId(118)]
+https://magic.store
+NavigatedWithinDocument(frame_id=FrameId('291C8098AAFB5260CCD56B702F16595D'), url='https://magic.store/')
+[NodeId(116), NodeId(117), NodeId(119), NodeId(120)]
+magic.store
+https://magic.store/profile/settings
+NavigatedWithinDocument(frame_id=FrameId('291C8098AAFB5260CCD56B702F16595D'), url='https://magic.store/profile/settings')
+NavigatedWithinDocument(frame_id=FrameId('291C8098AAFB5260CCD56B702F16595D'), url='https://magic.store/profile/validation-tasks')

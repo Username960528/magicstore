@@ -1,0 +1,62 @@
+INFO:2023-12-28 14:09:58,511:magicstore:914:Starting 914 browser profile
+INFO:2023-12-28 14:10:11,485:magicstore:914:Connecting to browser: ws://127.0.0.1:55945/devtools/browser/46ab1189-a2c5-46b9-9674-08ab627748ec
+INFO:2023-12-28 14:10:16,497:magicstore:914:Creating new target
+INFO:2023-12-28 14:10:16,534:magicstore:914:Attaching to target id=8BB2EED7BCF79DD144BE212E8C6A095F
+INFO:2023-12-28 14:10:16,536:magicstore:914:Navigating to https://magic.store
+INFO:2023-12-28 14:10:18,940:magicstore:914:Click node: Account NodeId(117) touch
+ERROR:2023-12-28 14:10:20,515:trio_cdp:914:Unable to send event "AttributeModified(node_id=NodeId(12), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x164863f2390, using buffer at 0x1648637f640>
+ERROR:2023-12-28 14:10:20,515:trio_cdp:914:Unable to send event "AttributeModified(node_id=NodeId(12), name='aria-hidden', value='true')" due to full channel <send channel at 0x164863f2390, using buffer at 0x1648637f640>
+ERROR:2023-12-28 14:10:20,515:trio_cdp:914:Unable to send event "AttributeModified(node_id=NodeId(13), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x164863f2390, using buffer at 0x1648637f640>
+ERROR:2023-12-28 14:10:20,515:trio_cdp:914:Unable to send event "AttributeModified(node_id=NodeId(13), name='aria-hidden', value='true')" due to full channel <send channel at 0x164863f2390, using buffer at 0x1648637f640>
+ERROR:2023-12-28 14:10:20,516:trio_cdp:914:Unable to send event "AttributeModified(node_id=NodeId(124), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x164863f2390, using buffer at 0x1648637f640>
+INFO:2023-12-28 14:10:20,578:magicstore:914:Click node: Login with EVM Wallet NodeId(140) touch
+INFO:2023-12-28 14:10:25,175:metamask:914:Attaching to target id=3868ED86D35A6140FD11CA5238E943DB
+INFO:2023-12-28 14:10:25,230:metamask:914:MetaMask signature request
+INFO:2023-12-28 14:10:25,232:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 14:10:28,281:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#unlock
+INFO:2023-12-28 14:10:30,041:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#
+INFO:2023-12-28 14:10:30,057:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 14:10:30,068:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/db658f00-a58a-11ee-828f-b91d463e52ae/signature-request
+INFO:2023-12-28 14:10:30,142:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 14:14:28,635:magicstore:914:Gonna try to fill profile
+INFO:2023-12-28 14:14:33,636:magicstore:914:Attaching to target id=8BB2EED7BCF79DD144BE212E8C6A095F
+INFO:2023-12-28 14:14:33,655:magicstore:914:Profile already filled, proceeding to vote.
+INFO:2023-12-28 14:14:37,742:magicstore:914:Creating new target
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 429, in worker
+    await zealy_verification(conn, acc)
+  File "C:\Users\Administrator\magicstore\asd.py", line 362, in zealy_verification
+    task = await query_selector(root, 'div[id][open]', try_hard=10)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 87, in query_selector
+    node = await dom.query_selector(root_id, query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\generated\dom.py", line 553, in query_selector
+    return await session.execute(cdp.dom.query_selector(node_id, selector))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\__init__.py", line 105, in execute
+    raise response
+trio_cdp.BrowserError: BrowserError<code=-32000 message=Could not find node with given id> None
+INFO:2023-12-28 14:15:02,530:magicstore:914:Attaching to target id=8BB2EED7BCF79DD144BE212E8C6A095F
+INFO:2023-12-28 14:15:02,536:magicstore:914:Navigating to https://magic.store
+INFO:2023-12-28 14:15:06,166:magicstore:914:Click node: Account NodeId(117) touch
+INFO:2023-12-28 14:18:34,509:magicstore:914:Gonna try to fill profile
+INFO:2023-12-28 14:18:39,510:magicstore:914:Attaching to target id=8BB2EED7BCF79DD144BE212E8C6A095F
+INFO:2023-12-28 14:18:39,538:magicstore:914:Open settings
+INFO:2023-12-28 14:18:39,548:magicstore:914:Click node: Account NodeId(139) mouse
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 428, in worker
+    await magicstore_fill_profile(conn, tid, acc)
+  File "C:\Users\Administrator\magicstore\asd.py", line 106, in magicstore_fill_profile
+    await magicstore_open_settings(conn, session)
+  File "C:\Users\Administrator\magicstore\asd.py", line 59, in magicstore_open_settings
+    await query_and_click_node(root, 'div.menu-list > button',
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 126, in query_and_click_node
+    node = await query_selector(root, query, **qs_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 92, in query_selector
+    raise QuerySelectorError(query)
+cdp_utils.QuerySelectorError: div.menu-list > button
+INFO:2023-12-28 14:18:50,695:magicstore:914:Attaching to target id=8BB2EED7BCF79DD144BE212E8C6A095F
+INFO:2023-12-28 14:18:50,699:magicstore:914:Navigating to https://magic.store
+INFO:2023-12-28 14:18:53,169:magicstore:914:Click node: Account NodeId(119) touch

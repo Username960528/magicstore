@@ -1,0 +1,21 @@
+INFO:2023-12-28 13:05:53,069:magicstore:918:Starting 918 browser profile
+INFO:2023-12-28 13:06:06,610:magicstore:918:Connecting to browser: ws://127.0.0.1:49302/devtools/browser/65453d02-7841-435c-89a4-69b57fa62ef3
+INFO:2023-12-28 13:06:11,756:magicstore:918:Creating new target
+INFO:2023-12-28 13:06:12,263:magicstore:918:Attaching to target id=4A1EEFE172CACBC913E1F7AF0A7F6E7F
+INFO:2023-12-28 13:06:12,340:magicstore:918:Navigating to https://magic.store
+INFO:2023-12-28 13:06:17,005:magicstore:918:Click node: Account NodeId(117) touch
+INFO:2023-12-28 13:06:18,950:magicstore:918:Gonna vote for all that shit
+INFO:2023-12-28 13:06:18,977:magicstore:918:Attaching to target 4A1EEFE172CACBC913E1F7AF0A7F6E7F
+INFO:2023-12-28 13:06:19,005:magicstore:918:Open settings
+INFO:2023-12-28 13:06:19,037:magicstore:918:Click node: Account NodeId(134) mouse
+INFO:2023-12-28 13:06:30,822:magicstore:918:Click node: Settings NodeId(138) touch
+INFO:2023-12-28 13:06:32,851:magicstore:918:Click node: Validations Tasks NodeId(267) touch
+INFO:2023-12-28 13:06:38,905:magicstore:918:Voting page #1
+INFO:2023-12-28 13:06:51,270:magicstore:918:Voting DONE: 0 918
+https://magic.store
+NavigatedWithinDocument(frame_id=FrameId('4A1EEFE172CACBC913E1F7AF0A7F6E7F'), url='https://magic.store/')
+[NodeId(116), NodeId(117)]
+magic.store
+https://magic.store/profile/settings
+NavigatedWithinDocument(frame_id=FrameId('4A1EEFE172CACBC913E1F7AF0A7F6E7F'), url='https://magic.store/profile/settings')
+NavigatedWithinDocument(frame_id=FrameId('4A1EEFE172CACBC913E1F7AF0A7F6E7F'), url='https://magic.store/profile/validation-tasks')

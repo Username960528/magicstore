@@ -1,0 +1,752 @@
+INFO:2023-12-28 12:41:40,860:magicstore:901:Starting 901 browser profile
+INFO:2023-12-28 12:41:55,843:magicstore:901:Connecting to browser: ws://127.0.0.1:63123/devtools/browser/7405a67b-40bd-4119-ad1e-480795cd0699
+INFO:2023-12-28 12:42:00,851:magicstore:901:Creating new target
+INFO:2023-12-28 12:42:00,916:magicstore:901:Attaching to target id=CB2662C6A376793C2B2563456EDF15BD
+INFO:2023-12-28 12:42:00,918:magicstore:901:Navigating to https://magic.store
+INFO:2023-12-28 12:42:03,164:magicstore:901:Click node: Account NodeId(117) touch
+INFO:2023-12-28 12:42:04,163:magicstore:901:Gonna try to fill profile
+INFO:2023-12-28 12:42:09,164:magicstore:901:Attaching to target id=CB2662C6A376793C2B2563456EDF15BD
+INFO:2023-12-28 12:42:09,169:magicstore:901:Open settings
+INFO:2023-12-28 12:42:09,179:magicstore:901:Click node: Account NodeId(139) mouse
+INFO:2023-12-28 12:42:19,240:magicstore:901:Click node: Settings NodeId(143) touch
+INFO:2023-12-28 12:42:24,672:magicstore:901:Url: https://magic.store/profile/settings
+INFO:2023-12-28 12:42:24,681:magicstore:901:Click node: Edit profile NodeId(275) mouse
+ERROR:2023-12-28 12:42:28,464:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(161), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,464:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(161), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,464:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(162), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,464:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(162), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,465:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(163), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,465:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(163), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,465:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(164), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,465:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(164), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,465:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(165), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,465:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(165), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,466:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(166), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,466:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(166), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,466:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(168), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,466:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(168), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,466:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(170), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,466:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(170), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,467:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(172), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,467:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(172), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,467:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(174), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,467:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(174), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,467:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(176), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,467:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(176), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,468:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(178), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,468:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(178), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,468:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(180), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,468:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(180), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,468:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(182), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,468:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(182), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,468:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(184), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,469:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(184), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,469:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(186), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,469:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(186), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,469:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(188), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,469:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(188), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,469:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(190), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,469:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(190), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,470:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(192), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,470:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(192), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,470:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(194), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,470:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(194), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,470:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(196), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,471:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(196), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,471:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(198), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,471:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(198), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,471:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(200), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,471:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(200), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,472:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(202), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,472:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(202), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,472:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(204), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,472:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(204), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,472:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(206), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,472:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(206), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,472:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(208), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,473:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(208), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,473:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(210), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,473:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(210), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,473:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(212), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,473:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(212), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,473:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(214), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,473:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(214), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,474:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(216), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,474:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(216), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,474:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(218), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,474:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(218), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,474:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(220), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,475:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(220), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,475:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(222), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,475:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(222), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,475:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(224), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,475:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(224), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,475:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(226), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,476:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(226), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,476:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(228), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,476:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(228), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,476:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(230), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,476:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(230), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,476:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(232), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,476:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(232), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,477:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(234), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,477:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(234), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,477:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(236), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,477:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(236), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,477:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(238), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,478:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(238), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,478:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(240), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,478:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(240), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,478:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(242), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,478:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(242), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,478:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(244), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,478:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(244), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,479:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(246), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,479:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(246), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,479:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(248), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,479:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(248), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,479:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(249), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,480:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(249), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,480:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(250), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,480:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(250), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,480:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(251), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,480:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(251), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,481:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(253), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,481:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(253), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,481:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(254), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,481:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(254), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,482:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(255), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,482:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(255), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,482:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(257), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,482:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(257), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,483:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(258), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,483:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(258), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,483:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(259), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+ERROR:2023-12-28 12:42:28,483:trio_cdp:901:Unable to send event "AttributeModified(node_id=NodeId(259), name='aria-hidden', value='true')" due to full channel <send channel at 0x1bca7fe0850, using buffer at 0x1bca815f580>
+INFO:2023-12-28 12:42:28,522:magicstore:901:Creating new target
+INFO:2023-12-28 12:42:47,329:magicstore:901:Gonna vote for all that shit
+INFO:2023-12-28 12:42:47,371:magicstore:901:Attaching to target CB2662C6A376793C2B2563456EDF15BD
+INFO:2023-12-28 12:42:47,373:magicstore:901:Open settings
+INFO:2023-12-28 12:42:47,412:magicstore:901:Click node: Account NodeId(132) mouse
+INFO:2023-12-28 12:42:58,534:magicstore:901:Click node: Settings NodeId(140) touch
+INFO:2023-12-28 12:42:59,637:magicstore:901:Click node: Validations Tasks NodeId(268) touch
+INFO:2023-12-28 12:43:06,379:magicstore:901:Voting page #1
+INFO:2023-12-28 12:43:08,897:magicstore:901:Voting node NodeId(405)
+INFO:2023-12-28 12:43:10,934:magicstore:901:Click node: Vote NodeId(424) touch
+INFO:2023-12-28 12:43:12,442:magicstore:901:Voting for daren.market
+INFO:2023-12-28 12:43:12,442:magicstore:901:Click node: Visit project page NodeId(439) enter
+INFO:2023-12-28 12:43:22,756:magicstore:901:Click node: Yes/No radio NodeId(455) mouse
+INFO:2023-12-28 12:43:23,530:magicstore:901:Click node: Next NodeId(450) mouse
+INFO:2023-12-28 12:43:24,431:magicstore:901:Click node: Confirm NodeId(470) mouse
+INFO:2023-12-28 12:43:43,852:metamask:901:Attaching to target id=0E1AE2F5547C05555FE83CED68380CEF
+INFO:2023-12-28 12:43:46,660:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:43:46,751:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#unlock
+INFO:2023-12-28 12:43:48,344:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#unlock
+INFO:2023-12-28 12:43:49,195:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#
+INFO:2023-12-28 12:43:49,195:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:43:49,195:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/bed0ee90-a57e-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:43:49,340:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:43:51,506:magicstore:901:Click node: Collapse NodeId(470) mouse
+INFO:2023-12-28 12:43:52,946:magicstore:901:Click node: Close task NodeId(490) touch
+INFO:2023-12-28 12:43:56,444:magicstore:901:Voting node NodeId(406)
+INFO:2023-12-28 12:43:56,447:magicstore:901:Click node:  NodeId(502) touch
+INFO:2023-12-28 12:43:59,793:magicstore:901:Click node: Vote NodeId(514) touch
+INFO:2023-12-28 12:44:00,884:magicstore:901:Voting for moonsale.com
+INFO:2023-12-28 12:44:00,884:magicstore:901:Click node: Visit project page NodeId(528) enter
+INFO:2023-12-28 12:44:11,283:magicstore:901:Click node: Yes/No radio NodeId(544) mouse
+INFO:2023-12-28 12:44:11,659:magicstore:901:Click node: Next NodeId(539) mouse
+INFO:2023-12-28 12:44:13,137:magicstore:901:Click node: Confirm NodeId(559) mouse
+INFO:2023-12-28 12:44:29,810:metamask:901:Attaching to target id=DF566F71D1A6316FEDC17710EEAE1D5D
+INFO:2023-12-28 12:44:29,879:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:44:29,934:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:44:32,396:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:44:32,397:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/d797b490-a57e-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:44:32,448:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:44:35,219:magicstore:901:Click node: Collapse NodeId(568) mouse
+INFO:2023-12-28 12:44:36,903:magicstore:901:Click node: Close task NodeId(506) touch
+INFO:2023-12-28 12:44:40,726:magicstore:901:Voting node NodeId(407)
+INFO:2023-12-28 12:44:40,729:magicstore:901:Click node:  NodeId(581) touch
+INFO:2023-12-28 12:44:44,292:magicstore:901:Click node: Vote NodeId(593) touch
+INFO:2023-12-28 12:44:44,522:magicstore:901:Voting for credefi.finance
+INFO:2023-12-28 12:44:44,522:magicstore:901:Click node: Visit project page NodeId(607) enter
+INFO:2023-12-28 12:44:54,857:magicstore:901:Click node: Yes/No radio NodeId(623) mouse
+INFO:2023-12-28 12:44:56,856:magicstore:901:Click node: Next NodeId(618) mouse
+INFO:2023-12-28 12:44:58,318:magicstore:901:Click node: Confirm NodeId(638) mouse
+INFO:2023-12-28 12:45:02,312:metamask:901:Attaching to target id=F5DAA8595FE928C325DBEFC98157E5EB
+INFO:2023-12-28 12:45:02,351:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:45:02,535:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:45:04,585:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:45:04,587:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/eadcb820-a57e-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:45:04,691:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:45:05,899:magicstore:901:Click node: Collapse NodeId(647) mouse
+INFO:2023-12-28 12:45:07,514:magicstore:901:Click node: Close task NodeId(585) touch
+INFO:2023-12-28 12:45:12,119:magicstore:901:Voting node NodeId(408)
+INFO:2023-12-28 12:45:12,123:magicstore:901:Click node:  NodeId(660) touch
+INFO:2023-12-28 12:45:14,809:magicstore:901:Click node: Vote NodeId(672) touch
+INFO:2023-12-28 12:45:15,943:magicstore:901:Voting for nfts2me.com
+INFO:2023-12-28 12:45:15,943:magicstore:901:Click node: Visit project page NodeId(686) enter
+INFO:2023-12-28 12:45:26,351:magicstore:901:Click node: Yes/No radio NodeId(702) mouse
+INFO:2023-12-28 12:45:27,608:magicstore:901:Click node: Next NodeId(697) mouse
+INFO:2023-12-28 12:45:28,097:magicstore:901:Click node: Confirm NodeId(717) mouse
+INFO:2023-12-28 12:45:31,502:metamask:901:Attaching to target id=9169CADDE5F52A98BFC042EFDFDF779D
+INFO:2023-12-28 12:45:31,632:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:45:31,634:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:45:34,010:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:45:34,011:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/fc68e820-a57e-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:45:34,026:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:45:36,387:magicstore:901:Click node: Collapse NodeId(726) mouse
+INFO:2023-12-28 12:45:38,358:magicstore:901:Click node: Close task NodeId(664) touch
+INFO:2023-12-28 12:45:42,619:magicstore:901:Voting node NodeId(409)
+INFO:2023-12-28 12:45:42,636:magicstore:901:Click node:  NodeId(739) touch
+INFO:2023-12-28 12:45:48,091:magicstore:901:Click node:  NodeId(739) touch
+INFO:2023-12-28 12:45:51,998:magicstore:901:Click node: Vote NodeId(751) touch
+INFO:2023-12-28 12:45:52,774:magicstore:901:Voting for www.obvious.technology
+INFO:2023-12-28 12:45:52,774:magicstore:901:Click node: Visit project page NodeId(765) enter
+INFO:2023-12-28 12:46:03,085:magicstore:901:Click node: Yes/No radio NodeId(781) mouse
+INFO:2023-12-28 12:46:04,427:magicstore:901:Click node: Next NodeId(776) mouse
+INFO:2023-12-28 12:46:04,815:magicstore:901:Click node: Confirm NodeId(796) mouse
+INFO:2023-12-28 12:46:08,695:metamask:901:Attaching to target id=B5717D807FD02D69479D54436507CB65
+INFO:2023-12-28 12:46:08,748:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:46:08,793:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:46:11,183:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:46:11,187:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/1287e6b0-a57f-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:46:11,293:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:46:13,341:magicstore:901:Click node: Collapse NodeId(805) mouse
+INFO:2023-12-28 12:46:15,718:magicstore:901:Click node: Close task NodeId(743) touch
+INFO:2023-12-28 12:46:21,300:magicstore:901:Voting node NodeId(410)
+INFO:2023-12-28 12:46:21,792:magicstore:901:Click node:  NodeId(818) touch
+INFO:2023-12-28 12:46:25,670:magicstore:901:Click node: Vote NodeId(830) touch
+INFO:2023-12-28 12:46:27,883:magicstore:901:Voting for wombex.finance
+INFO:2023-12-28 12:46:27,884:magicstore:901:Click node: Visit project page NodeId(844) enter
+INFO:2023-12-28 12:46:38,260:magicstore:901:Click node: Yes/No radio NodeId(860) mouse
+INFO:2023-12-28 12:46:38,732:magicstore:901:Click node: Next NodeId(855) mouse
+INFO:2023-12-28 12:46:40,501:magicstore:901:Click node: Confirm NodeId(875) mouse
+INFO:2023-12-28 12:46:46,816:metamask:901:Attaching to target id=2F6DDD0F16721EC70D7F227F27098A25
+INFO:2023-12-28 12:46:46,908:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:46:46,950:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:46:48,994:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:46:48,995:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/293a99c0-a57f-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:46:49,149:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:46:50,339:magicstore:901:Click node: Collapse NodeId(884) mouse
+INFO:2023-12-28 12:46:51,650:magicstore:901:Click node: Close task NodeId(822) touch
+INFO:2023-12-28 12:46:56,691:magicstore:901:Voting node NodeId(411)
+INFO:2023-12-28 12:46:56,694:magicstore:901:Click node:  NodeId(897) touch
+INFO:2023-12-28 12:47:00,413:magicstore:901:Click node: Vote NodeId(909) touch
+INFO:2023-12-28 12:47:01,356:magicstore:901:Voting for taskon.xyz
+INFO:2023-12-28 12:47:01,356:magicstore:901:Click node: Visit project page NodeId(923) enter
+INFO:2023-12-28 12:47:11,774:magicstore:901:Click node: Yes/No radio NodeId(939) mouse
+INFO:2023-12-28 12:47:12,996:magicstore:901:Click node: Next NodeId(934) mouse
+INFO:2023-12-28 12:47:14,188:magicstore:901:Click node: Confirm NodeId(954) mouse
+INFO:2023-12-28 12:47:19,749:metamask:901:Attaching to target id=E4DFA57337BDCBD2964C57D72D414B3F
+INFO:2023-12-28 12:47:19,780:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:47:19,789:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:47:22,088:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:47:22,090:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/3ce60040-a57f-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:47:22,106:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:47:24,376:magicstore:901:Click node: Collapse NodeId(954) mouse
+INFO:2023-12-28 12:47:25,884:magicstore:901:Click node: Close task NodeId(901) touch
+INFO:2023-12-28 12:47:30,155:magicstore:901:Voting node NodeId(412)
+INFO:2023-12-28 12:47:30,192:magicstore:901:Click node:  NodeId(976) touch
+INFO:2023-12-28 12:47:35,370:magicstore:901:Click node:  NodeId(976) touch
+INFO:2023-12-28 12:47:38,571:magicstore:901:Click node: Vote NodeId(988) touch
+INFO:2023-12-28 12:47:39,405:magicstore:901:Voting for app.frfi.io
+INFO:2023-12-28 12:47:39,405:magicstore:901:Click node: Visit project page NodeId(1002) enter
+INFO:2023-12-28 12:47:49,747:magicstore:901:Click node: Yes/No radio NodeId(1022) mouse
+INFO:2023-12-28 12:47:49,872:magicstore:901:Click node: Next NodeId(1013) mouse
+INFO:2023-12-28 12:47:51,473:magicstore:901:Click node: Confirm NodeId(1033) mouse
+INFO:2023-12-28 12:47:57,031:metamask:901:Attaching to target id=94A8B8140DE837CC5FED2D191B043FB4
+INFO:2023-12-28 12:47:57,119:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:47:57,167:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:47:59,316:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:47:59,318:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/531e5330-a57f-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:47:59,350:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:48:00,844:magicstore:901:Click node: Collapse NodeId(1033) mouse
+INFO:2023-12-28 12:48:01,781:magicstore:901:Click node: Close task NodeId(980) touch
+INFO:2023-12-28 12:48:05,140:magicstore:901:Voting node NodeId(413)
+INFO:2023-12-28 12:48:05,183:magicstore:901:Click node:  NodeId(1055) touch
+INFO:2023-12-28 12:48:10,158:magicstore:901:Click node: Vote NodeId(1067) touch
+INFO:2023-12-28 12:48:11,219:magicstore:901:Voting for wallmer.com
+INFO:2023-12-28 12:48:11,219:magicstore:901:Click node: Visit project page NodeId(1081) enter
+INFO:2023-12-28 12:48:21,754:magicstore:901:Click node: Yes/No radio NodeId(1097) mouse
+INFO:2023-12-28 12:48:23,910:magicstore:901:Click node: Next NodeId(1092) mouse
+INFO:2023-12-28 12:48:24,180:magicstore:901:Click node: Confirm NodeId(1112) mouse
+INFO:2023-12-28 12:48:29,088:metamask:901:Attaching to target id=2CE9A26AA9FA332E14FC243B8F7E2BA0
+INFO:2023-12-28 12:48:29,160:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:48:29,232:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:48:31,468:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:48:31,501:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/66373db0-a57f-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:48:31,523:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:48:33,198:magicstore:901:Click node: Collapse NodeId(1121) mouse
+INFO:2023-12-28 12:48:33,689:magicstore:901:Click node: Close task NodeId(1059) touch
+INFO:2023-12-28 12:48:37,734:magicstore:901:Voting node NodeId(414)
+INFO:2023-12-28 12:48:37,738:magicstore:901:Click node:  NodeId(1134) touch
+INFO:2023-12-28 12:48:42,220:magicstore:901:Click node: Vote NodeId(1146) touch
+INFO:2023-12-28 12:48:42,908:magicstore:901:Voting for cityofdreams.io
+INFO:2023-12-28 12:48:42,909:magicstore:901:Click node: Visit project page NodeId(1160) enter
+INFO:2023-12-28 12:48:53,291:magicstore:901:Click node: Yes/No radio NodeId(1176) mouse
+INFO:2023-12-28 12:48:54,791:magicstore:901:Click node: Next NodeId(1171) mouse
+INFO:2023-12-28 12:48:55,670:magicstore:901:Click node: Confirm NodeId(1191) mouse
+INFO:2023-12-28 12:49:00,919:metamask:901:Attaching to target id=44E30011AAB60B0962949AB5B41BA754
+INFO:2023-12-28 12:49:00,998:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:49:01,042:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:49:03,351:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:49:03,353:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/7931a3b0-a57f-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:49:03,385:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:49:05,420:magicstore:901:Click node: Collapse NodeId(1200) mouse
+INFO:2023-12-28 12:49:07,108:magicstore:901:Click node: Close task NodeId(1138) touch
+INFO:2023-12-28 12:49:20,837:magicstore:901:Click node: Next page NodeId(1333) touch
+INFO:2023-12-28 12:49:22,276:magicstore:901:Click node: Next page NodeId(1333) enter
+INFO:2023-12-28 12:49:23,596:magicstore:901:Click node: Next page NodeId(1333) enter
+INFO:2023-12-28 12:49:28,009:magicstore:901:Voting page #2
+INFO:2023-12-28 12:49:30,522:magicstore:901:Voting node NodeId(1475)
+INFO:2023-12-28 12:49:32,527:magicstore:901:Click node: Vote NodeId(1494) touch
+INFO:2023-12-28 12:49:33,930:magicstore:901:Voting for tribes.vemp.xyz
+INFO:2023-12-28 12:49:33,930:magicstore:901:Click node: Visit project page NodeId(1509) enter
+INFO:2023-12-28 12:49:44,509:magicstore:901:Click node: Yes/No radio NodeId(1525) mouse
+INFO:2023-12-28 12:49:45,972:magicstore:901:Click node: Next NodeId(1520) mouse
+INFO:2023-12-28 12:49:47,130:magicstore:901:Click node: Confirm NodeId(1540) mouse
+INFO:2023-12-28 12:49:51,791:metamask:901:Attaching to target id=6FF6FCE8C4FFD32DC4C451AF09E936FC
+INFO:2023-12-28 12:49:51,875:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:49:52,045:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:49:53,964:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:49:53,966:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/9774ade0-a57f-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:49:53,978:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:49:56,513:magicstore:901:Click node: Collapse NodeId(1549) mouse
+INFO:2023-12-28 12:49:57,384:magicstore:901:Click node: Close task NodeId(1560) touch
+INFO:2023-12-28 12:50:01,632:magicstore:901:Voting node NodeId(1476)
+INFO:2023-12-28 12:50:01,760:magicstore:901:Click node:  NodeId(1572) touch
+INFO:2023-12-28 12:50:05,510:magicstore:901:Click node: Vote NodeId(1584) touch
+INFO:2023-12-28 12:50:06,545:magicstore:901:Voting for www.bitstore.com
+INFO:2023-12-28 12:50:06,545:magicstore:901:Click node: Visit project page NodeId(1598) enter
+INFO:2023-12-28 12:50:16,904:magicstore:901:Click node: Yes/No radio NodeId(1614) mouse
+INFO:2023-12-28 12:50:17,355:magicstore:901:Click node: Next NodeId(1609) mouse
+INFO:2023-12-28 12:50:18,244:magicstore:901:Click node: Confirm NodeId(1629) mouse
+INFO:2023-12-28 12:50:23,275:metamask:901:Attaching to target id=7E682A47BE9AB255945CBE333CF42CAD
+INFO:2023-12-28 12:50:23,308:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:50:23,366:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:50:25,566:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:50:25,567:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/aa4a4dd0-a57f-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:50:25,607:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:50:28,605:magicstore:901:Click node: Collapse NodeId(1638) mouse
+INFO:2023-12-28 12:50:29,511:magicstore:901:Click node: Close task NodeId(1576) touch
+INFO:2023-12-28 12:50:33,809:magicstore:901:Voting node NodeId(1477)
+INFO:2023-12-28 12:50:33,815:magicstore:901:Click node:  NodeId(1651) touch
+INFO:2023-12-28 12:50:37,414:magicstore:901:Click node: Vote NodeId(1663) touch
+INFO:2023-12-28 12:50:38,586:magicstore:901:Voting for open.name
+INFO:2023-12-28 12:50:38,586:magicstore:901:Click node: Visit project page NodeId(1677) enter
+INFO:2023-12-28 12:50:48,981:magicstore:901:Click node: Yes/No radio NodeId(1693) mouse
+INFO:2023-12-28 12:50:50,701:magicstore:901:Click node: Next NodeId(1688) mouse
+INFO:2023-12-28 12:50:51,385:magicstore:901:Click node: Confirm NodeId(1708) mouse
+INFO:2023-12-28 12:50:55,494:metamask:901:Attaching to target id=1A6B6168E08DD60E5DB6F1D50E93932E
+INFO:2023-12-28 12:50:55,509:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:50:55,591:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:50:57,780:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:50:57,881:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/bd80f980-a57f-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:50:57,932:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:51:00,007:magicstore:901:Click node: Collapse NodeId(1708) mouse
+INFO:2023-12-28 12:51:01,169:magicstore:901:Click node: Close task NodeId(1655) touch
+INFO:2023-12-28 12:51:05,448:magicstore:901:Voting node NodeId(1478)
+INFO:2023-12-28 12:51:05,712:magicstore:901:Click node:  NodeId(1730) touch
+INFO:2023-12-28 12:51:08,817:magicstore:901:Click node: Vote NodeId(1742) touch
+INFO:2023-12-28 12:51:09,415:magicstore:901:Voting for halo.social
+INFO:2023-12-28 12:51:09,415:magicstore:901:Click node: Visit project page NodeId(1756) enter
+INFO:2023-12-28 12:51:19,936:magicstore:901:Click node: Yes/No radio NodeId(1772) mouse
+INFO:2023-12-28 12:51:20,762:magicstore:901:Click node: Next NodeId(1767) mouse
+INFO:2023-12-28 12:51:22,387:magicstore:901:Click node: Confirm NodeId(1787) mouse
+INFO:2023-12-28 12:51:26,775:metamask:901:Attaching to target id=ABE10E09B8F48E8551A3A7768DD255F8
+INFO:2023-12-28 12:51:26,848:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:51:26,857:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:51:29,241:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:51:29,241:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/d023a290-a57f-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:51:29,351:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:51:31,288:magicstore:901:Click node: Collapse NodeId(1796) mouse
+INFO:2023-12-28 12:51:32,808:magicstore:901:Click node: Close task NodeId(1734) touch
+INFO:2023-12-28 12:51:37,190:magicstore:901:Voting node NodeId(1479)
+INFO:2023-12-28 12:51:37,278:magicstore:901:Click node:  NodeId(1809) touch
+INFO:2023-12-28 12:51:40,355:magicstore:901:Click node: Vote NodeId(1821) touch
+INFO:2023-12-28 12:51:41,936:magicstore:901:Voting for creator.voiceflow.com
+INFO:2023-12-28 12:51:41,936:magicstore:901:Click node: Visit project page NodeId(1835) enter
+INFO:2023-12-28 12:51:52,311:magicstore:901:Click node: Yes/No radio NodeId(1851) mouse
+INFO:2023-12-28 12:51:54,504:magicstore:901:Click node: Next NodeId(1846) mouse
+INFO:2023-12-28 12:51:56,502:magicstore:901:Click node: Confirm NodeId(1866) mouse
+INFO:2023-12-28 12:52:23,874:metamask:901:Attaching to target id=80C8C1AEBA3FFCB0383FD75876280E6E
+INFO:2023-12-28 12:52:23,935:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:52:23,941:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:52:26,702:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:52:26,704:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/f22dedf0-a57f-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:52:26,818:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:52:29,978:magicstore:901:Click node: Collapse NodeId(1866) mouse
+INFO:2023-12-28 12:52:30,883:magicstore:901:Click node: Close task NodeId(1813) touch
+INFO:2023-12-28 12:52:35,384:magicstore:901:Voting node NodeId(1480)
+INFO:2023-12-28 12:52:35,417:magicstore:901:Click node:  NodeId(1888) touch
+INFO:2023-12-28 12:52:39,640:magicstore:901:Click node: Vote NodeId(1900) touch
+INFO:2023-12-28 12:52:40,091:magicstore:901:Voting for app.trava.finance
+INFO:2023-12-28 12:52:40,091:magicstore:901:Click node: Visit project page NodeId(1914) enter
+INFO:2023-12-28 12:52:50,722:magicstore:901:Click node: Yes/No radio NodeId(1934) mouse
+INFO:2023-12-28 12:52:52,231:magicstore:901:Click node: Next NodeId(1925) mouse
+INFO:2023-12-28 12:52:53,635:magicstore:901:Click node: Confirm NodeId(1945) mouse
+INFO:2023-12-28 12:53:04,850:metamask:901:Attaching to target id=233A0D6A1F518E7F78814336B1D4C4FD
+INFO:2023-12-28 12:53:05,006:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:53:05,161:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:53:07,120:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:53:07,121:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/0a765c30-a580-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:53:07,136:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:53:09,161:magicstore:901:Click node: Collapse NodeId(1945) mouse
+INFO:2023-12-28 12:53:10,179:magicstore:901:Click node: Close task NodeId(1892) touch
+INFO:2023-12-28 12:53:14,686:magicstore:901:Voting node NodeId(1481)
+INFO:2023-12-28 12:53:14,727:magicstore:901:Click node:  NodeId(1967) touch
+INFO:2023-12-28 12:53:18,886:magicstore:901:Click node: Vote NodeId(1979) touch
+INFO:2023-12-28 12:53:20,170:magicstore:901:Voting for gamepadbot.gg
+INFO:2023-12-28 12:53:20,171:magicstore:901:Click node: Visit project page NodeId(1993) enter
+INFO:2023-12-28 12:53:30,698:magicstore:901:Click node: Yes/No radio NodeId(2009) mouse
+INFO:2023-12-28 12:53:31,116:magicstore:901:Click node: Next NodeId(2004) mouse
+INFO:2023-12-28 12:53:31,825:magicstore:901:Click node: Confirm NodeId(2024) mouse
+INFO:2023-12-28 12:53:36,723:metamask:901:Attaching to target id=CC9718BCD80A81464F40D9B0F320E1C2
+INFO:2023-12-28 12:53:36,792:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:53:36,845:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:53:38,858:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:53:38,982:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/1d98e3a0-a580-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:53:39,006:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:53:40,668:magicstore:901:Click node: Collapse NodeId(2033) mouse
+INFO:2023-12-28 12:53:42,819:magicstore:901:Click node: Close task NodeId(1971) touch
+INFO:2023-12-28 12:53:46,904:magicstore:901:Voting node NodeId(1482)
+INFO:2023-12-28 12:53:46,908:magicstore:901:Click node:  NodeId(2046) touch
+INFO:2023-12-28 12:53:50,295:magicstore:901:Click node: Vote NodeId(2058) touch
+INFO:2023-12-28 12:53:51,591:magicstore:901:Voting for dashboard.mava.app
+INFO:2023-12-28 12:53:51,591:magicstore:901:Click node: Visit project page NodeId(2072) enter
+INFO:2023-12-28 12:54:01,885:magicstore:901:Click node: Yes/No radio NodeId(2092) mouse
+INFO:2023-12-28 12:54:02,527:magicstore:901:Click node: Next NodeId(2083) mouse
+INFO:2023-12-28 12:54:03,477:magicstore:901:Click node: Confirm NodeId(2103) mouse
+INFO:2023-12-28 12:54:10,469:metamask:901:Attaching to target id=667B8A2D3D85D9A3FC71456DBF051F90
+INFO:2023-12-28 12:54:10,472:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:54:10,541:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:54:12,852:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:54:12,853:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/31b1b1f0-a580-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:54:13,076:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:54:15,706:magicstore:901:Click node: Collapse NodeId(2112) mouse
+INFO:2023-12-28 12:54:16,389:magicstore:901:Click node: Close task NodeId(2050) touch
+INFO:2023-12-28 12:54:20,952:magicstore:901:Voting node NodeId(1483)
+INFO:2023-12-28 12:54:20,965:magicstore:901:Click node:  NodeId(2125) touch
+INFO:2023-12-28 12:54:24,189:magicstore:901:Click node: Vote NodeId(2137) touch
+INFO:2023-12-28 12:54:25,765:magicstore:901:Voting for metopia.xyz
+INFO:2023-12-28 12:54:25,766:magicstore:901:Click node: Visit project page NodeId(2151) enter
+INFO:2023-12-28 12:54:36,259:magicstore:901:Click node: Yes/No radio NodeId(2167) mouse
+INFO:2023-12-28 12:54:36,848:magicstore:901:Click node: Next NodeId(2162) mouse
+INFO:2023-12-28 12:54:38,005:magicstore:901:Click node: Confirm NodeId(2182) mouse
+INFO:2023-12-28 12:54:43,179:metamask:901:Attaching to target id=1EA22F3CBECA2ACA2BFCAF8647629392
+INFO:2023-12-28 12:54:43,699:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:54:44,163:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:54:45,950:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:54:45,963:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/4533be80-a580-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:54:45,980:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:54:48,286:magicstore:901:Click node: Collapse NodeId(2182) mouse
+INFO:2023-12-28 12:54:48,680:magicstore:901:Click node: Close task NodeId(2129) touch
+INFO:2023-12-28 12:54:52,475:magicstore:901:Voting node NodeId(1484)
+INFO:2023-12-28 12:54:53,538:magicstore:901:Click node:  NodeId(2204) touch
+INFO:2023-12-28 12:54:59,637:magicstore:901:Click node: Vote NodeId(2216) touch
+INFO:2023-12-28 12:55:01,136:magicstore:901:Voting for cryptotaxcalculator.io
+INFO:2023-12-28 12:55:01,137:magicstore:901:Click node: Visit project page NodeId(2230) enter
+INFO:2023-12-28 12:55:11,772:magicstore:901:Click node: Yes/No radio NodeId(2250) mouse
+INFO:2023-12-28 12:55:14,408:magicstore:901:Click node: Next NodeId(2241) mouse
+INFO:2023-12-28 12:55:16,127:magicstore:901:Click node: Confirm NodeId(2261) mouse
+INFO:2023-12-28 12:55:21,971:metamask:901:Attaching to target id=CACBF0845B7E9ED4F5A718CDB721FDFB
+INFO:2023-12-28 12:55:22,106:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:55:22,127:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:55:24,121:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:55:24,122:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/5c187e10-a580-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:55:24,135:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:55:26,839:magicstore:901:Click node: Collapse NodeId(2270) mouse
+INFO:2023-12-28 12:55:27,735:magicstore:901:Click node: Close task NodeId(2208) touch
+INFO:2023-12-28 12:55:41,764:magicstore:901:Click node: Next page NodeId(2406) touch
+INFO:2023-12-28 12:55:44,931:magicstore:901:Click node: Next page NodeId(2406) enter
+INFO:2023-12-28 12:55:46,680:magicstore:901:Click node: Next page NodeId(2406) enter
+INFO:2023-12-28 12:55:51,158:magicstore:901:Voting page #3
+INFO:2023-12-28 12:55:53,674:magicstore:901:Voting node NodeId(2546)
+INFO:2023-12-28 12:55:55,688:magicstore:901:Click node: Vote NodeId(2565) touch
+INFO:2023-12-28 12:55:56,634:magicstore:901:Voting for nine-chronicles.com
+INFO:2023-12-28 12:55:56,634:magicstore:901:Click node: Visit project page NodeId(2580) enter
+INFO:2023-12-28 12:56:07,078:magicstore:901:Click node: Yes/No radio NodeId(2596) mouse
+INFO:2023-12-28 12:56:07,829:magicstore:901:Click node: Next NodeId(2591) mouse
+INFO:2023-12-28 12:56:09,325:magicstore:901:Click node: Confirm NodeId(2611) mouse
+INFO:2023-12-28 12:56:14,669:metamask:901:Attaching to target id=4E53BC6DA87F68B58219C5B51A54965B
+INFO:2023-12-28 12:56:14,692:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:56:14,719:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:56:17,005:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:56:17,038:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/7bc5edb0-a580-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:56:17,117:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:56:18,877:magicstore:901:Click node: Collapse NodeId(2611) mouse
+INFO:2023-12-28 12:56:19,530:magicstore:901:Click node: Close task NodeId(2631) touch
+INFO:2023-12-28 12:56:23,995:magicstore:901:Voting node NodeId(2547)
+INFO:2023-12-28 12:56:23,998:magicstore:901:Click node:  NodeId(2643) touch
+INFO:2023-12-28 12:56:29,873:magicstore:901:Click node:  NodeId(2643) touch
+INFO:2023-12-28 12:56:32,822:magicstore:901:Click node: Vote NodeId(2655) touch
+INFO:2023-12-28 12:56:33,588:magicstore:901:Voting for spooky.fi
+INFO:2023-12-28 12:56:33,588:magicstore:901:Click node: Visit project page NodeId(2669) enter
+INFO:2023-12-28 12:56:43,868:magicstore:901:Click node: Yes/No radio NodeId(2685) mouse
+INFO:2023-12-28 12:56:46,008:magicstore:901:Click node: Next NodeId(2680) mouse
+INFO:2023-12-28 12:56:46,717:magicstore:901:Click node: Confirm NodeId(2700) mouse
+INFO:2023-12-28 12:56:51,414:metamask:901:Attaching to target id=C5F3D75C7D678CCD9CBED517968C3557
+INFO:2023-12-28 12:56:51,460:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:56:51,466:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:56:53,626:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:56:53,640:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/91aaa260-a580-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:56:53,715:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:56:55,287:magicstore:901:Click node: Collapse NodeId(2709) mouse
+INFO:2023-12-28 12:56:56,386:magicstore:901:Click node: Close task NodeId(2647) touch
+INFO:2023-12-28 12:57:00,181:magicstore:901:Voting node NodeId(2548)
+INFO:2023-12-28 12:57:00,185:magicstore:901:Click node:  NodeId(2722) touch
+INFO:2023-12-28 12:57:04,318:magicstore:901:Click node: Vote NodeId(2734) touch
+INFO:2023-12-28 12:57:05,120:magicstore:901:Voting for www.bitmake.com
+INFO:2023-12-28 12:57:05,120:magicstore:901:Click node: Visit project page NodeId(2748) enter
+INFO:2023-12-28 12:57:15,381:magicstore:901:Click node: Yes/No radio NodeId(2764) mouse
+INFO:2023-12-28 12:57:16,150:magicstore:901:Click node: Next NodeId(2759) mouse
+INFO:2023-12-28 12:57:16,633:magicstore:901:Click node: Confirm NodeId(2779) mouse
+INFO:2023-12-28 12:57:24,035:metamask:901:Attaching to target id=827EE141B20DC7E6D09E1A1A1B721E38
+INFO:2023-12-28 12:57:24,082:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:57:24,084:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:57:26,455:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:57:26,473:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/a51c0d20-a580-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:57:26,543:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:57:27,977:magicstore:901:Click node: Collapse NodeId(2788) mouse
+INFO:2023-12-28 12:57:29,190:magicstore:901:Click node: Close task NodeId(2726) touch
+INFO:2023-12-28 12:57:33,659:magicstore:901:Voting node NodeId(2549)
+INFO:2023-12-28 12:57:33,663:magicstore:901:Click node:  NodeId(2801) touch
+INFO:2023-12-28 12:57:38,450:magicstore:901:Click node: Vote NodeId(2813) touch
+INFO:2023-12-28 12:57:39,148:magicstore:901:Voting for gamestarter.com
+INFO:2023-12-28 12:57:39,149:magicstore:901:Click node: Visit project page NodeId(2827) enter
+INFO:2023-12-28 12:57:49,404:magicstore:901:Click node: Yes/No radio NodeId(2843) mouse
+INFO:2023-12-28 12:57:50,657:magicstore:901:Click node: Next NodeId(2838) mouse
+INFO:2023-12-28 12:57:52,034:magicstore:901:Click node: Confirm NodeId(2858) mouse
+INFO:2023-12-28 12:57:56,313:metamask:901:Attaching to target id=24925B72D83684F99971BD7198840F40
+INFO:2023-12-28 12:57:56,340:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:57:56,354:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:57:58,784:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:57:58,799:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/b85725a0-a580-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:57:58,868:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:58:00,558:magicstore:901:Click node: Collapse NodeId(2867) mouse
+INFO:2023-12-28 12:58:01,467:magicstore:901:Click node: Close task NodeId(2805) touch
+INFO:2023-12-28 12:58:04,959:magicstore:901:Voting node NodeId(2550)
+INFO:2023-12-28 12:58:04,967:magicstore:901:Click node:  NodeId(2880) touch
+INFO:2023-12-28 12:58:11,498:magicstore:901:Click node:  NodeId(2880) touch
+INFO:2023-12-28 12:58:14,687:magicstore:901:Click node: Vote NodeId(2892) touch
+INFO:2023-12-28 12:58:15,756:magicstore:901:Voting for portal.battlecity.io
+INFO:2023-12-28 12:58:15,756:magicstore:901:Click node: Visit project page NodeId(2906) enter
+INFO:2023-12-28 12:58:26,040:magicstore:901:Click node: Yes/No radio NodeId(2922) mouse
+INFO:2023-12-28 12:58:27,193:magicstore:901:Click node: Next NodeId(2917) mouse
+INFO:2023-12-28 12:58:28,251:magicstore:901:Click node: Confirm NodeId(2937) mouse
+INFO:2023-12-28 12:58:32,632:metamask:901:Attaching to target id=00E41A66778B65224CB2D12B4ED972D4
+INFO:2023-12-28 12:58:32,663:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:58:32,690:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:58:35,135:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:58:35,161:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/ce016960-a580-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:58:35,238:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:58:37,480:magicstore:901:Click node: Collapse NodeId(2946) mouse
+INFO:2023-12-28 12:58:39,216:magicstore:901:Click node: Close task NodeId(2884) touch
+INFO:2023-12-28 12:58:43,701:magicstore:901:Voting node NodeId(2551)
+INFO:2023-12-28 12:58:43,705:magicstore:901:Click node:  NodeId(2959) touch
+INFO:2023-12-28 12:58:48,905:magicstore:901:Click node:  NodeId(2959) touch
+INFO:2023-12-28 12:58:52,666:magicstore:901:Click node: Vote NodeId(2971) touch
+INFO:2023-12-28 12:58:55,037:magicstore:901:Voting for namiinsurance.io
+INFO:2023-12-28 12:58:55,037:magicstore:901:Click node: Visit project page NodeId(2985) enter
+INFO:2023-12-28 12:59:05,318:magicstore:901:Click node: Yes/No radio NodeId(3001) mouse
+INFO:2023-12-28 12:59:06,315:magicstore:901:Click node: Next NodeId(2996) mouse
+INFO:2023-12-28 12:59:06,636:magicstore:901:Click node: Confirm NodeId(3016) mouse
+INFO:2023-12-28 12:59:12,520:metamask:901:Attaching to target id=182FCBEDED02642E7B92F59B3486F123
+INFO:2023-12-28 12:59:12,556:metamask:901:MetaMask signature request
+INFO:2023-12-28 12:59:12,570:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 12:59:15,040:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 12:59:15,060:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/e5c69de0-a580-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 12:59:15,135:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 12:59:17,912:magicstore:901:Click node: Collapse NodeId(3025) mouse
+INFO:2023-12-28 12:59:19,158:magicstore:901:Click node: Close task NodeId(2963) touch
+INFO:2023-12-28 12:59:23,877:magicstore:901:Voting node NodeId(2552)
+INFO:2023-12-28 12:59:23,880:magicstore:901:Click node:  NodeId(3038) touch
+INFO:2023-12-28 12:59:30,092:magicstore:901:Click node:  NodeId(3038) touch
+INFO:2023-12-28 12:59:36,686:magicstore:901:Click node:  NodeId(3038) touch
+INFO:2023-12-28 12:59:41,532:magicstore:901:Click node: Vote NodeId(3050) touch
+INFO:2023-12-28 12:59:43,069:magicstore:901:Voting for traderjoexyz.com
+INFO:2023-12-28 12:59:43,069:magicstore:901:Click node: Visit project page NodeId(3064) enter
+INFO:2023-12-28 12:59:53,367:magicstore:901:Click node: Yes/No radio NodeId(3084) mouse
+INFO:2023-12-28 12:59:55,006:magicstore:901:Click node: Next NodeId(3075) mouse
+INFO:2023-12-28 12:59:55,839:magicstore:901:Click node: Confirm NodeId(3095) mouse
+INFO:2023-12-28 13:00:02,201:metamask:901:Attaching to target id=02779BD234C44DF9A2923F3558AE4BFA
+INFO:2023-12-28 13:00:02,251:metamask:901:MetaMask signature request
+INFO:2023-12-28 13:00:02,254:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 13:00:04,772:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 13:00:04,772:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/0364b580-a581-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 13:00:04,811:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 13:00:07,021:magicstore:901:Click node: Collapse NodeId(3104) mouse
+INFO:2023-12-28 13:00:08,621:magicstore:901:Click node: Close task NodeId(3042) touch
+INFO:2023-12-28 13:00:12,983:magicstore:901:Voting node NodeId(2553)
+INFO:2023-12-28 13:00:12,986:magicstore:901:Click node:  NodeId(3117) touch
+INFO:2023-12-28 13:00:16,726:magicstore:901:Click node: Vote NodeId(3129) touch
+INFO:2023-12-28 13:00:17,212:magicstore:901:Voting for joepegs.com
+INFO:2023-12-28 13:00:17,212:magicstore:901:Click node: Visit project page NodeId(3143) enter
+INFO:2023-12-28 13:00:27,471:magicstore:901:Click node: Yes/No radio NodeId(3159) mouse
+INFO:2023-12-28 13:00:28,661:magicstore:901:Click node: Next NodeId(3154) mouse
+INFO:2023-12-28 13:00:29,128:magicstore:901:Click node: Confirm NodeId(3174) mouse
+INFO:2023-12-28 13:00:34,381:metamask:901:Attaching to target id=3541FF579C6BAA3E66800990249A4D77
+INFO:2023-12-28 13:00:34,434:metamask:901:MetaMask signature request
+INFO:2023-12-28 13:00:34,436:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 13:00:36,931:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 13:00:36,936:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/168f0520-a581-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 13:00:37,052:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 13:00:39,052:magicstore:901:Click node: Collapse NodeId(3174) mouse
+INFO:2023-12-28 13:00:40,449:magicstore:901:Click node: Close task NodeId(3121) touch
+INFO:2023-12-28 13:00:44,379:magicstore:901:Voting node NodeId(2554)
+INFO:2023-12-28 13:00:44,423:magicstore:901:Click node:  NodeId(3196) touch
+INFO:2023-12-28 13:00:48,256:magicstore:901:Click node: Vote NodeId(3208) touch
+INFO:2023-12-28 13:00:49,843:magicstore:901:Voting for daomaker.com
+INFO:2023-12-28 13:00:49,844:magicstore:901:Click node: Visit project page NodeId(3222) enter
+INFO:2023-12-28 13:01:00,099:magicstore:901:Click node: Yes/No radio NodeId(3238) mouse
+INFO:2023-12-28 13:01:01,065:magicstore:901:Click node: Next NodeId(3233) mouse
+INFO:2023-12-28 13:01:02,509:magicstore:901:Click node: Confirm NodeId(3253) mouse
+INFO:2023-12-28 13:01:07,196:metamask:901:Attaching to target id=378E036104F17463235E41AA58716111
+INFO:2023-12-28 13:01:07,242:metamask:901:MetaMask signature request
+INFO:2023-12-28 13:01:07,250:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 13:01:09,647:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 13:01:09,648:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/2a2005d0-a581-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 13:01:09,713:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 13:01:11,420:magicstore:901:Click node: Collapse NodeId(3262) mouse
+INFO:2023-12-28 13:01:13,662:magicstore:901:Click node: Close task NodeId(3200) touch
+INFO:2023-12-28 13:01:18,727:magicstore:901:Voting node NodeId(2555)
+INFO:2023-12-28 13:01:19,099:magicstore:901:Click node:  NodeId(3275) touch
+INFO:2023-12-28 13:01:22,948:magicstore:901:Click node: Vote NodeId(3287) touch
+INFO:2023-12-28 13:01:24,075:magicstore:901:Voting for www.monetha.io
+INFO:2023-12-28 13:01:24,075:magicstore:901:Click node: Visit project page NodeId(3301) enter
+INFO:2023-12-28 13:01:34,500:magicstore:901:Click node: Yes/No radio NodeId(3317) mouse
+INFO:2023-12-28 13:01:36,435:magicstore:901:Click node: Next NodeId(3312) mouse
+INFO:2023-12-28 13:01:36,854:magicstore:901:Click node: Confirm NodeId(3332) mouse
+INFO:2023-12-28 13:02:06,336:metamask:901:Attaching to target id=831354FF37CB47E77E44232E1C1BA8BA
+INFO:2023-12-28 13:02:06,478:metamask:901:MetaMask signature request
+INFO:2023-12-28 13:02:06,509:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 13:02:08,450:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 13:02:08,451:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/4d294aa0-a581-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 13:02:08,497:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 13:02:10,226:magicstore:901:Click node: Collapse NodeId(3341) mouse
+INFO:2023-12-28 13:02:12,599:magicstore:901:Click node: Close task NodeId(3279) touch
+INFO:2023-12-28 13:02:26,309:magicstore:901:Click node: Next page NodeId(3479) touch
+INFO:2023-12-28 13:02:27,972:magicstore:901:Click node: Next page NodeId(3479) enter
+INFO:2023-12-28 13:02:29,186:magicstore:901:Click node: Next page NodeId(3479) enter
+INFO:2023-12-28 13:02:33,616:magicstore:901:Voting page #4
+INFO:2023-12-28 13:02:36,131:magicstore:901:Voting node NodeId(3617)
+INFO:2023-12-28 13:02:38,136:magicstore:901:Click node: Vote NodeId(3636) touch
+INFO:2023-12-28 13:02:39,556:magicstore:901:Voting for app.dexe.io
+INFO:2023-12-28 13:02:39,556:magicstore:901:Click node: Visit project page NodeId(3651) enter
+INFO:2023-12-28 13:02:49,907:magicstore:901:Click node: Yes/No radio NodeId(3671) mouse
+INFO:2023-12-28 13:02:51,376:magicstore:901:Click node: Next NodeId(3662) mouse
+INFO:2023-12-28 13:02:52,816:magicstore:901:Click node: Confirm NodeId(3682) mouse
+INFO:2023-12-28 13:02:58,932:metamask:901:Attaching to target id=5DCAB0BC3268CD157BDEF294839AD6E5
+INFO:2023-12-28 13:03:01,436:metamask:901:MetaMask signature request
+INFO:2023-12-28 13:03:01,443:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/6c95b9a0-a581-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 13:03:01,478:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 13:03:03,859:magicstore:901:Click node: Collapse NodeId(3691) mouse
+INFO:2023-12-28 13:03:05,451:magicstore:901:Click node: Close task NodeId(3702) touch
+INFO:2023-12-28 13:03:10,203:magicstore:901:Voting node NodeId(3618)
+INFO:2023-12-28 13:03:10,208:magicstore:901:Click node:  NodeId(3714) touch
+INFO:2023-12-28 13:03:12,527:magicstore:901:Click node: Vote NodeId(3726) touch
+INFO:2023-12-28 13:03:13,525:magicstore:901:Voting for keysmith-demo.me3.io
+INFO:2023-12-28 13:03:13,525:magicstore:901:Click node: Visit project page NodeId(3740) enter
+INFO:2023-12-28 13:03:23,841:magicstore:901:Click node: Yes/No radio NodeId(3756) mouse
+INFO:2023-12-28 13:03:24,803:magicstore:901:Click node: Next NodeId(3751) mouse
+INFO:2023-12-28 13:03:25,186:magicstore:901:Click node: Confirm NodeId(3771) mouse
+INFO:2023-12-28 13:03:36,880:metamask:901:Attaching to target id=03B5AAA8B8A087476FAC53DF5F422C40
+INFO:2023-12-28 13:03:36,936:metamask:901:MetaMask signature request
+INFO:2023-12-28 13:03:36,979:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 13:03:39,276:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 13:03:39,278:metamask:901:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/8347a960-a581-11ee-9185-a5dbd44392a5/signature-request
+INFO:2023-12-28 13:03:39,288:magicstore:901:Click node:  NodeId(50) mouse
+INFO:2023-12-28 13:03:41,841:magicstore:901:Click node: Collapse NodeId(3771) mouse
+INFO:2023-12-28 13:03:43,060:magicstore:901:Click node: Close task NodeId(3718) touch
+INFO:2023-12-28 13:03:47,314:magicstore:901:Voting node NodeId(3619)
+INFO:2023-12-28 13:03:47,353:magicstore:901:Click node:  NodeId(3793) touch
+https://magic.store
+NavigatedWithinDocument(frame_id=FrameId('CB2662C6A376793C2B2563456EDF15BD'), url='https://magic.store/')
+[NodeId(116), NodeId(117)]
+https://magic.store/profile/settings
+zealy.io
+NodeId(189)
+NodeId(193)
+NodeId(197)
+NodeId(201)
+magic.store
+https://magic.store/profile/settings
+NavigatedWithinDocument(frame_id=FrameId('CB2662C6A376793C2B2563456EDF15BD'), url='https://magic.store/profile/settings')
+NavigatedWithinDocument(frame_id=FrameId('CB2662C6A376793C2B2563456EDF15BD'), url='https://magic.store/profile/validation-tasks')
+AttributeModified(node_id=NodeId(485), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(490), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(416), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(497), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(492), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(497), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(506), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(492), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(576), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(571), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(576), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(585), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(571), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(655), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(650), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(655), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(664), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(650), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(734), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(729), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(813), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(808), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(892), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(887), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(892), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(901), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(887), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(971), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(966), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(971), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(980), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(966), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(1050), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(1045), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(1050), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(1059), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(1045), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(1129), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(1124), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(1555), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(1560), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(1486), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(1567), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(1562), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(1567), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(1576), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(1562), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(1646), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(1641), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(1646), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(1655), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(1641), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(1725), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(1720), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(1725), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(1734), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(1720), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(1804), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(1799), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(1804), name='class', value='transition-all max-2xl:hidden h-0')
+AttributeModified(node_id=NodeId(1813), name='class', value='relative w-9 h-9 flex items-center max-2xl:self-start overflow-hidden rounded-full justify-center transition-all border border-solid bg-transparent border-primary-300')
+AttributeModified(node_id=NodeId(1799), name='class', value='collapsible')
+AttributeModified(node_id=NodeId(1883), name='class', value='transition-all max-2xl:hidden h-8')
+AttributeModified(node_id=NodeId(1878), name='class', value='collapsible collapsible-open')
+AttributeModified(node_id=NodeId(1883), name='class', value='transition-all max-2xl:hidden h-0')
+INFO:2023-12-28 13:03:53,420:magicstore:901:Click node: Vote NodeId(3805) touch
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 430, in worker
+    await magicstore_vote(conn, acc)
+  File "C:\Users\Administrator\magicstore\asd.py", line 298, in magicstore_vote
+    total += (nVotes := await magicstore_vote_page(conn, session, acc))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 224, in magicstore_vote_page
+    raise TimeoutError("Vote button")
+utils.TimeoutError: Vote button
+INFO:2023-12-28 13:04:21,423:magicstore:901:Attaching to target id=CB2662C6A376793C2B2563456EDF15BD
+INFO:2023-12-28 13:04:21,424:magicstore:901:Navigating to https://magic.store

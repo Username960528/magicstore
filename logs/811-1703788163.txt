@@ -1,0 +1,4 @@
+  File "C:\Users\Administrator\magicstore\asd.py", line 135
+    update_account(acc :=| {'magicstore':
+                         ^
+SyntaxError: invalid syntax

@@ -1,0 +1,3 @@
+[submodule "deps/python-crome-devtools-protocol"]
+	path = deps/python-crome-devtools-protocol
+	url = https://github.com/HyperionGray/python-chrome-devtools-protocol

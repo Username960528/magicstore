@@ -1,0 +1,48 @@
+INFO:2023-12-28 13:53:38,998:magicstore:917:Starting 917 browser profile
+INFO:2023-12-28 13:53:54,861:magicstore:917:Connecting to browser: ws://127.0.0.1:53542/devtools/browser/cde76d66-3f2a-4a75-950f-c689dc133fa8
+INFO:2023-12-28 13:54:00,472:magicstore:917:Creating new target
+INFO:2023-12-28 13:54:00,541:magicstore:917:Attaching to target id=65924ACE465B0FE43F572C7C48528B61
+INFO:2023-12-28 13:54:00,550:magicstore:917:Navigating to https://magic.store
+INFO:2023-12-28 13:54:02,979:magicstore:917:Click node: Account NodeId(113) touch
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 427, in worker
+    tid = await magicstore_login(conn, acc)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 166, in magicstore_login
+    await click_node(node, type='touch', name='Account')
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 35, in click_node
+    box = await dom.get_box_model(node)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\generated\dom.py", line 181, in get_box_model
+    return await session.execute(cdp.dom.get_box_model(node_id, backend_node_id, object_id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\__init__.py", line 105, in execute
+    raise response
+trio_cdp.BrowserError: BrowserError<code=-32000 message=Could not find node with given id> None
+INFO:2023-12-28 13:54:03,272:magicstore:917:Attaching to target id=65924ACE465B0FE43F572C7C48528B61
+INFO:2023-12-28 13:54:03,313:magicstore:917:Navigating to https://magic.store
+INFO:2023-12-28 13:54:07,191:magicstore:917:Click node: Account NodeId(112) touch
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 427, in worker
+    tid = await magicstore_login(conn, acc)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 166, in magicstore_login
+    await click_node(node, type='touch', name='Account')
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 34, in click_node
+    if focus: await dom.focus(node)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\generated\dom.py", line 151, in focus
+    return await session.execute(cdp.dom.focus(node_id, backend_node_id, object_id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\__init__.py", line 105, in execute
+    raise response
+trio_cdp.BrowserError: BrowserError<code=-32000 message=Could not find node with given id> None
+INFO:2023-12-28 13:54:07,354:magicstore:917:Attaching to target id=65924ACE465B0FE43F572C7C48528B61
+INFO:2023-12-28 13:54:07,362:magicstore:917:Navigating to https://magic.store
+INFO:2023-12-28 13:54:09,330:magicstore:917:Click node: Account NodeId(122) touch
+INFO:2023-12-28 13:54:09,919:magicstore:917:Creating new target
+INFO:2023-12-28 13:54:14,281:magicstore:917:Click node: Task 3d3edccb-91f4-49ef-b733-e365b59b51b1 NodeId(54) mouse
+INFO:2023-12-28 13:54:17,187:magicstore:917:Click node:  NodeId(79) mouse
+INFO:2023-12-28 13:54:18,742:magicstore:917:Click node: Claim Reward NodeId(74) mouse
+INFO:2023-12-28 13:54:45,908:magicstore:917:Click node: Task 3d3edccb-91f4-49ef-b733-e365b59b51b1 NodeId(54) mouse
+INFO:2023-12-28 13:54:49,197:magicstore:917:Click node:  NodeId(79) mouse

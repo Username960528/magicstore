@@ -1,0 +1,12 @@
+INFO:2023-12-28 19:09:59,218:magicstore:912:Starting 912 browser profile
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 473, in <module>
+    trio.run(worker, sys.argv[1], restrict_keyboard_interrupt_to_checkpoints=True)
+  File "C:\Python\Lib\site-packages\trio\_core\_run.py", line 2262, in run
+    raise runner.main_task_outcome.error
+  File "C:\Users\Administrator\magicstore\asd.py", line 414, in worker
+    cdp_uri = ads_request('/api/v1/browser/start',
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\utils.py", line 75, in ads_request
+    raise RuntimeError(json['msg'])
+RuntimeError: [j8y6o4f] is being used by [123moonuser+dasha2@gmail.com] and is not allowed to open

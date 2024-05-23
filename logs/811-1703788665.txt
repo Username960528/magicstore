@@ -1,0 +1,35 @@
+INFO:2023-12-28 18:37:54,420:magicstore:811:Starting 811 browser profile
+INFO:2023-12-28 18:38:07,916:magicstore:811:Connecting to browser: ws://127.0.0.1:53028/devtools/browser/465f114a-0014-452c-9822-b1dc87eff5c9
+INFO:2023-12-28 18:38:12,989:magicstore:811:Creating new target
+INFO:2023-12-28 18:38:13,166:magicstore:811:Attaching to target id=2DF486D5FD29DD8985D43D13A07D5447
+INFO:2023-12-28 18:38:13,171:magicstore:811:Navigating to https://magic.store
+INFO:2023-12-28 18:38:17,046:magicstore:811:Click node: Account NodeId(120) touch
+INFO:2023-12-28 18:38:18,365:magicstore:811:Click node: Login with EVM Wallet NodeId(137) touch
+INFO:2023-12-28 18:38:33,238:metamask:811:Attaching to target id=8BBE2B5CC83A8D75D06AF00E97E27AFA
+INFO:2023-12-28 18:38:33,273:metamask:811:MetaMask signature request
+INFO:2023-12-28 18:38:33,294:metamask:811:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:38:42,702:metamask:811:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#unlock
+INFO:2023-12-28 18:38:44,279:metamask:811:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#
+INFO:2023-12-28 18:38:44,550:metamask:811:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:38:44,585:metamask:811:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/542bfc60-a5b0-11ee-ae25-e399c6dc11c6/signature-request
+INFO:2023-12-28 18:38:45,021:magicstore:811:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:38:45,108:metamask:811:Attaching to target id=2EA4002FF012CC729D65E46ABB212AD8
+INFO:2023-12-28 18:38:45,141:metamask:811:MetaMask signature request
+INFO:2023-12-28 18:38:45,147:metamask:811:handling 
+INFO:2023-12-28 18:38:50,270:metamask:811:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:38:50,297:metamask:811:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/542bfc60-a5b0-11ee-ae25-e399c6dc11c6/signature-request
+INFO:2023-12-28 18:38:50,451:magicstore:811:Click node:  NodeId(49) mouse
+https://magic.store
+NavigatedWithinDocument(frame_id=FrameId('2DF486D5FD29DD8985D43D13A07D5447'), url='https://magic.store/')
+[NodeId(119), NodeId(120)]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 470, in <module>
+    trio.run(worker, sys.argv[1], restrict_keyboard_interrupt_to_checkpoints=True)
+  File "C:\Python\Lib\site-packages\trio\_core\_run.py", line 2262, in run
+    raise runner.main_task_outcome.error
+  File "C:\Users\Administrator\magicstore\asd.py", line 428, in worker
+    await magicstore_fill_profile(conn, tid, acc)
+  File "C:\Users\Administrator\magicstore\asd.py", line 88, in magicstore_fill_profile
+    email = acc['mail']['address']
+            ~~~^^^^^^^^
+KeyError: 'mail'

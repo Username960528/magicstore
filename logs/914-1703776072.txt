@@ -1,0 +1,42 @@
+INFO:2023-12-28 15:07:56,135:magicstore:914:Starting 914 browser profile
+INFO:2023-12-28 15:08:08,711:magicstore:914:Connecting to browser: ws://127.0.0.1:59986/devtools/browser/ba198ad2-c75c-4922-87f1-90df98f80f5a
+INFO:2023-12-28 15:08:13,870:magicstore:914:Creating new target
+INFO:2023-12-28 15:08:13,929:magicstore:914:Attaching to target id=122A34BFA4FAD033AFF4C2FA0C09D1F9
+INFO:2023-12-28 15:08:13,937:magicstore:914:Navigating to https://magic.store
+INFO:2023-12-28 15:08:16,115:magicstore:914:Click node: Account NodeId(117) touch
+INFO:2023-12-28 15:08:17,020:magicstore:914:Creating new target
+INFO:2023-12-28 15:08:19,976:magicstore:914:Click node: Task 01f71881-6b6a-43a2-801e-042353a034b5 NodeId(47) mouse
+INFO:2023-12-28 15:08:22,989:magicstore:914:Click node:  NodeId(73) mouse
+INFO:2023-12-28 15:08:40,308:magicstore:914:Click node:  NodeId(75) mouse
+INFO:2023-12-28 15:08:45,066:magicstore:914:Gonna vote for all that shit
+INFO:2023-12-28 15:08:45,111:magicstore:914:Attaching to target 122A34BFA4FAD033AFF4C2FA0C09D1F9
+INFO:2023-12-28 15:08:45,115:magicstore:914:Open settings
+INFO:2023-12-28 15:08:45,130:magicstore:914:Click node: Account NodeId(134) mouse
+INFO:2023-12-28 15:08:56,775:magicstore:914:Click node: Settings NodeId(138) touch
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 430, in worker
+    await magicstore_vote(conn, acc)
+  File "C:\Users\Administrator\magicstore\asd.py", line 294, in magicstore_vote
+    await magicstore_open_voting_page(conn, session)
+  File "C:\Users\Administrator\magicstore\asd.py", line 187, in magicstore_open_voting_page
+    await magicstore_open_settings(conn, session)
+  File "C:\Users\Administrator\magicstore\asd.py", line 61, in magicstore_open_settings
+    await afind(events, foo(lambda x: x.endswith('/profile/settings')),
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 155, in afind
+    raise TimeoutError(error_msg)
+utils.TimeoutError: Settings page timeout
+INFO:2023-12-28 15:09:28,039:magicstore:914:Attaching to target id=122A34BFA4FAD033AFF4C2FA0C09D1F9
+INFO:2023-12-28 15:09:28,041:magicstore:914:Navigating to https://magic.store
+INFO:2023-12-28 15:09:30,076:magicstore:914:Click node: Account NodeId(117) touch
+INFO:2023-12-28 15:09:31,964:magicstore:914:Click node: Login with EVM Wallet NodeId(140) touch
+INFO:2023-12-28 15:09:35,857:metamask:914:Attaching to target id=13F881C9D0E15BCCA347FCD464A013AA
+INFO:2023-12-28 15:09:35,866:metamask:914:MetaMask signature request
+INFO:2023-12-28 15:09:35,868:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 15:09:38,053:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#unlock
+INFO:2023-12-28 15:09:38,713:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#
+INFO:2023-12-28 15:09:39,125:metamask:914:Attaching to target id=BB8FA0C7E2DDD28A61F60995AAE90B17
+INFO:2023-12-28 15:09:39,214:metamask:914:MetaMask signature request
+INFO:2023-12-28 15:09:39,272:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 15:09:41,275:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 15:09:41,289:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/1ebcf6a0-a593-11ee-8828-4de1d952723d/signature-request
+INFO:2023-12-28 15:09:41,359:magicstore:914:Click node:  NodeId(50) mouse

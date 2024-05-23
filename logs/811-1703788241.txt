@@ -1,0 +1,199 @@
+INFO:2023-12-28 18:30:46,138:magicstore:811:Starting 811 browser profile
+INFO:2023-12-28 18:31:06,585:magicstore:811:Connecting to browser: ws://127.0.0.1:52031/devtools/browser/c89c15c9-3bd1-4a1e-a062-1066f7e79cc0
+INFO:2023-12-28 18:31:11,616:magicstore:811:Creating new target
+INFO:2023-12-28 18:31:11,698:magicstore:811:Attaching to target id=F98A7DDAB9AE1CF170F1F25C56606B3E
+INFO:2023-12-28 18:31:11,704:magicstore:811:Navigating to https://magic.store
+INFO:2023-12-28 18:31:16,099:magicstore:811:Click node: Account NodeId(119) touch
+ERROR:2023-12-28 18:31:17,663:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(12), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,663:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(12), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,663:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(13), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,664:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(13), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,664:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(127), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,664:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(127), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,664:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(20), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,664:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(20), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,665:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(21), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,665:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(21), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,665:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(22), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,665:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(22), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,665:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(24), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,666:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(24), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,666:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(26), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,666:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(26), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,666:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(28), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,666:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(28), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,667:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(30), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,667:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(30), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,667:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(32), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,667:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(32), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,667:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(34), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,667:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(34), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,668:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(36), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,668:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(36), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,668:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(38), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,668:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(38), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,668:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(40), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,668:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(40), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,669:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(42), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,669:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(42), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,669:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(44), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,669:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(44), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,669:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(46), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,669:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(46), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,670:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(48), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,670:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(48), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,670:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(50), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,670:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(50), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,670:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(52), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,670:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(52), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,671:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(54), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,671:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(54), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,671:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(56), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,671:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(56), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,671:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(58), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,671:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(58), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,672:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(60), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,672:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(60), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,672:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(62), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,672:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(62), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,672:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(64), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,672:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(64), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,673:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(66), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,673:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(66), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,673:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(68), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,673:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(68), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,673:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(70), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,673:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(70), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,673:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(72), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,674:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(72), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,674:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(74), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,674:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(74), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,674:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(76), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,674:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(76), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,674:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(78), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,675:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(78), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,675:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(80), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,675:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(80), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,675:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(82), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,675:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(82), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,676:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(84), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,676:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(84), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,676:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(86), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,676:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(86), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,676:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(88), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,676:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(88), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,676:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(90), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,677:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(90), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,677:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(92), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,677:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(92), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,677:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(94), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,678:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(94), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,678:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(96), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,678:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(96), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,678:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(98), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,678:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(98), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,678:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(100), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,679:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(100), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,679:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(102), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,679:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(102), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,679:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(104), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,679:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(104), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,679:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(106), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,679:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(106), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,680:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(107), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,680:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(107), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,680:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(108), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,680:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(108), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,680:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(109), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,681:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(109), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,681:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(126), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,681:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(126), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,681:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(121), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,681:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(121), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,681:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(122), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,682:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(122), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,682:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(123), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,683:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(123), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,684:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(124), name='data-floating-ui-inert', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+ERROR:2023-12-28 18:31:17,684:trio_cdp:811:Unable to send event "AttributeModified(node_id=NodeId(124), name='aria-hidden', value='true')" due to full channel <send channel at 0x1e654209e10, using buffer at 0x1e65419f580>
+INFO:2023-12-28 18:31:17,756:magicstore:811:Click node: Login with EVM Wallet NodeId(142) touch
+INFO:2023-12-28 18:31:24,178:metamask:811:Attaching to target id=7EBCDB9A47D046C2DCB7A4448AEB73C0
+INFO:2023-12-28 18:31:24,699:metamask:811:MetaMask signature request
+INFO:2023-12-28 18:31:24,895:metamask:811:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:31:27,826:metamask:811:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#unlock
+INFO:2023-12-28 18:31:29,393:metamask:811:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#
+INFO:2023-12-28 18:31:29,402:metamask:811:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:31:29,417:metamask:811:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/5112caf0-a5af-11ee-ab4e-65afe2af0dac/signature-request
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 427, in worker
+    tid = await magicstore_login(conn, acc)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 180, in magicstore_login
+    await metamask_signature_request(conn, mmtid, acc)
+  File "C:\Users\Administrator\magicstore\metamask.py", line 102, in metamask_signature_request
+    await trio_util.wait_any(partial(metamask_signature_request_, conn, target_id, acc),
+  File "C:\Python\Lib\site-packages\trio_util\_awaitables.py", line 22, in wait_any
+    async with trio.open_nursery() as nursery:
+  File "C:\Python\Lib\site-packages\trio\_core\_run.py", line 963, in __aexit__
+    raise combined_error_from_nursery
+  File "C:\Python\Lib\site-packages\trio_util\_awaitables.py", line 6, in _wait_and_call
+    await f1()
+  File "C:\Users\Administrator\magicstore\metamask.py", line 51, in metamask_signature_request_
+    [_, btn] = await dom.query_selector_all(root.node_id, 'footer > button')
+    ^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+INFO:2023-12-28 18:31:29,722:magicstore:811:Attaching to target id=F98A7DDAB9AE1CF170F1F25C56606B3E
+INFO:2023-12-28 18:31:29,753:magicstore:811:Navigating to https://magic.store
+INFO:2023-12-28 18:31:32,835:magicstore:811:Click node: Account NodeId(119) touch
+INFO:2023-12-28 18:31:34,322:magicstore:811:Click node: Login with EVM Wallet NodeId(142) touch
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 427, in worker
+    tid = await magicstore_login(conn, acc)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 175, in magicstore_login
+    e = await afind(events, lambda e: is_metamask_url(e.target_info.url),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 155, in afind
+    raise TimeoutError(error_msg)
+utils.TimeoutError: Login timeout
+INFO:2023-12-28 18:32:36,035:magicstore:811:Attaching to target id=F98A7DDAB9AE1CF170F1F25C56606B3E
+INFO:2023-12-28 18:32:36,046:magicstore:811:Navigating to https://magic.store
+INFO:2023-12-28 18:32:47,119:magicstore:811:Click node: Account NodeId(119) touch
+INFO:2023-12-28 18:32:48,304:magicstore:811:Click node: Login with EVM Wallet NodeId(142) touch
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 427, in worker
+    tid = await magicstore_login(conn, acc)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 175, in magicstore_login
+    e = await afind(events, lambda e: is_metamask_url(e.target_info.url),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 155, in afind
+    raise TimeoutError(error_msg)
+utils.TimeoutError: Login timeout
+INFO:2023-12-28 18:33:49,268:magicstore:811:Attaching to target id=F98A7DDAB9AE1CF170F1F25C56606B3E
+INFO:2023-12-28 18:33:49,270:magicstore:811:Navigating to https://magic.store
+INFO:2023-12-28 18:33:55,984:magicstore:811:Click node: Account NodeId(118) touch
+ERROR:2023-12-28 18:33:57,791:trio_cdp:811:Unable to send event "FrameStoppedLoading(frame_id=FrameId('FF6CFE1B3533EE8A5C62023B7A9CC49B'))" due to full channel <send channel at 0x1e652b4b190, using buffer at 0x1e65419f700>
+ERROR:2023-12-28 18:33:57,884:trio_cdp:811:Unable to send event "FrameStoppedLoading(frame_id=FrameId('F98A7DDAB9AE1CF170F1F25C56606B3E'))" due to full channel <send channel at 0x1e652b4b190, using buffer at 0x1e65419f700>
+INFO:2023-12-28 18:33:58,061:magicstore:811:Click node: Login with EVM Wallet NodeId(135) touch
+ERROR:2023-12-28 18:33:59,708:trio_cdp:811:Unable to send event "FrameStoppedLoading(frame_id=FrameId('83DA3830CB2A6560F4D343566F4B1334'))" due to full channel <send channel at 0x1e652b4b190, using buffer at 0x1e65419f700>
+ERROR:2023-12-28 18:33:59,897:trio_cdp:811:Unable to send event "FrameStoppedLoading(frame_id=FrameId('180FEE979E7AD67CBBBDAE742B079530'))" due to full channel <send channel at 0x1e652b4b190, using buffer at 0x1e65419f700>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 427, in worker
+    tid = await magicstore_login(conn, acc)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\asd.py", line 175, in magicstore_login
+    e = await afind(events, lambda e: is_metamask_url(e.target_info.url),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 155, in afind
+    raise TimeoutError(error_msg)
+utils.TimeoutError: Login timeout
+INFO:2023-12-28 18:34:59,881:magicstore:811:Attaching to target id=F98A7DDAB9AE1CF170F1F25C56606B3E
+INFO:2023-12-28 18:34:59,884:magicstore:811:Navigating to https://magic.store
+ERROR:2023-12-28 18:35:05,541:trio_cdp:811:Unable to send event "FrameStoppedLoading(frame_id=FrameId('F98A7DDAB9AE1CF170F1F25C56606B3E'))" due to full channel <send channel at 0x1e652b4b190, using buffer at 0x1e65419f700>
+ERROR:2023-12-28 18:35:05,990:trio_cdp:811:Unable to send event "FrameStoppedLoading(frame_id=FrameId('F98A7DDAB9AE1CF170F1F25C56606B3E'))" due to full channel <send channel at 0x1e652b4b190, using buffer at 0x1e65419f700>
+INFO:2023-12-28 18:35:06,839:magicstore:811:Click node: Account NodeId(115) touch
+ERROR:2023-12-28 18:35:08,142:trio_cdp:811:Unable to send event "FrameStoppedLoading(frame_id=FrameId('F730172EF778B4DB905B573FBF26800C'))" due to full channel <send channel at 0x1e652b4b190, using buffer at 0x1e65419f700>
+INFO:2023-12-28 18:35:08,462:magicstore:811:Click node: Login with EVM Wallet NodeId(134) touch
+ERROR:2023-12-28 18:35:09,049:trio_cdp:811:Unable to send event "FrameStoppedLoading(frame_id=FrameId('41DB05790B22A7700EFD4556E4D74F5B'))" due to full channel <send channel at 0x1e652b4b190, using buffer at 0x1e65419f700>
+ERROR:2023-12-28 18:35:09,611:trio_cdp:811:Unable to send event "FrameStoppedLoading(frame_id=FrameId('C337EEFAF13982D387F6C53278DD8F4D'))" due to full channel <send channel at 0x1e652b4b190, using buffer at 0x1e65419f700>

@@ -1,0 +1,58 @@
+INFO:2023-12-28 14:20:41,790:magicstore:914:Starting 914 browser profile
+INFO:2023-12-28 14:20:55,570:magicstore:914:Connecting to browser: ws://127.0.0.1:57539/devtools/browser/48f4d985-7595-4f3c-aace-013b3bdfc25d
+INFO:2023-12-28 14:21:00,608:magicstore:914:Creating new target
+INFO:2023-12-28 14:21:00,645:magicstore:914:Attaching to target id=116DA7618DF2C3E71A252B3437D4CA6E
+INFO:2023-12-28 14:21:00,647:magicstore:914:Navigating to https://magic.store
+INFO:2023-12-28 14:21:03,096:magicstore:914:Click node: Account NodeId(117) touch
+INFO:2023-12-28 14:21:04,045:magicstore:914:Click node: Login with EVM Wallet NodeId(132) touch
+INFO:2023-12-28 14:21:08,107:metamask:914:Attaching to target id=01D9F36D64013B783BC77A4CBC8158B7
+INFO:2023-12-28 14:21:08,150:metamask:914:MetaMask signature request
+INFO:2023-12-28 14:21:08,180:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 14:21:10,546:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#unlock
+INFO:2023-12-28 14:21:11,186:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#
+INFO:2023-12-28 14:21:11,540:metamask:914:Attaching to target id=07FE7168A3D45ED222CFE6669A583681
+INFO:2023-12-28 14:21:11,567:metamask:914:MetaMask signature request
+INFO:2023-12-28 14:21:11,568:metamask:914:handling 
+INFO:2023-12-28 14:21:14,284:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 14:21:14,298:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/59c43760-a58c-11ee-9d16-27f7286bb496/signature-request
+INFO:2023-12-28 14:21:14,460:magicstore:914:Click node:  NodeId(49) mouse
+INFO:2023-12-28 14:40:26,283:magicstore:914:Gonna try to fill profile
+INFO:2023-12-28 14:40:31,285:magicstore:914:Attaching to target id=116DA7618DF2C3E71A252B3437D4CA6E
+INFO:2023-12-28 14:40:31,299:magicstore:914:Open settings
+INFO:2023-12-28 14:40:31,311:magicstore:914:Click node: Account NodeId(136) mouse
+https://magic.store
+NavigatedWithinDocument(frame_id=FrameId('116DA7618DF2C3E71A252B3437D4CA6E'), url='https://magic.store/')
+[NodeId(116), NodeId(117)]
+https://magic.store/profile/validation-tasks
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 428, in worker
+    await magicstore_fill_profile(conn, tid, acc)
+  File "C:\Users\Administrator\magicstore\asd.py", line 106, in magicstore_fill_profile
+    await magicstore_open_settings(conn, session)
+  File "C:\Users\Administrator\magicstore\asd.py", line 59, in magicstore_open_settings
+    await query_and_click_node(root, 'div.menu-list > button',
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 126, in query_and_click_node
+    node = await query_selector(root, query, **qs_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\magicstore\cdp_utils.py", line 87, in query_selector
+    node = await dom.query_selector(root_id, query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\generated\dom.py", line 553, in query_selector
+    return await session.execute(cdp.dom.query_selector(node_id, selector))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\trio_cdp\__init__.py", line 101, in execute
+    raise CdpConnectionClosed(wcc.reason) from None
+trio_cdp.CdpConnectionClosed: CloseReason<code=1006, name=ABNORMAL_CLOSURE, reason=None>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\magicstore\asd.py", line 470, in <module>
+    trio.run(worker, sys.argv[1], restrict_keyboard_interrupt_to_checkpoints=True)
+  File "C:\Python\Lib\site-packages\trio\_core\_run.py", line 2262, in run
+    raise runner.main_task_outcome.error
+  File "C:\Users\Administrator\magicstore\asd.py", line 448, in worker
+    ads_request('/api/v1/browser/stop', user_id=acc['user_id'])
+  File "C:\Users\Administrator\magicstore\utils.py", line 75, in ads_request
+    raise RuntimeError(json['msg'])
+RuntimeError: {}

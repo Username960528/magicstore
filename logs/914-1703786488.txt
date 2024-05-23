@@ -1,0 +1,279 @@
+INFO:2023-12-28 18:01:32,654:magicstore:914:Starting 914 browser profile
+INFO:2023-12-28 18:01:47,618:magicstore:914:Connecting to browser: ws://127.0.0.1:49154/devtools/browser/81d94c93-98fa-401c-bf8b-c57f38c434ce
+INFO:2023-12-28 18:01:52,641:magicstore:914:Creating new target
+INFO:2023-12-28 18:01:52,671:magicstore:914:Attaching to target id=CE7251A995961A493AA6A1EF86BF5B00
+INFO:2023-12-28 18:01:52,682:magicstore:914:Navigating to https://magic.store
+INFO:2023-12-28 18:01:56,078:magicstore:914:Click node: Account NodeId(119) touch
+INFO:2023-12-28 18:01:57,228:magicstore:914:Click node: Login with EVM Wallet NodeId(141) touch
+INFO:2023-12-28 18:02:00,578:metamask:914:Attaching to target id=EFB3507D14923323E7DF45402B3CAF0A
+INFO:2023-12-28 18:02:00,631:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:02:00,636:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:02:03,034:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#unlock
+INFO:2023-12-28 18:02:04,048:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#
+INFO:2023-12-28 18:02:04,070:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:02:04,084:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/34dea060-a5ab-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:02:04,158:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:04:57,990:magicstore:914:Gonna vote for all that shit
+INFO:2023-12-28 18:04:57,997:magicstore:914:Attaching to target CE7251A995961A493AA6A1EF86BF5B00
+INFO:2023-12-28 18:04:58,076:magicstore:914:Open settings
+INFO:2023-12-28 18:04:58,093:magicstore:914:Click node: Account NodeId(131) mouse
+INFO:2023-12-28 18:05:08,919:magicstore:914:Click node: Settings NodeId(139) touch
+INFO:2023-12-28 18:05:09,782:magicstore:914:Click node: Validations Tasks NodeId(267) touch
+INFO:2023-12-28 18:05:15,160:magicstore:914:Voting page #1
+INFO:2023-12-28 18:05:17,675:magicstore:914:Voting node NodeId(404)
+INFO:2023-12-28 18:05:19,680:magicstore:914:Click node: Vote NodeId(423) touch
+INFO:2023-12-28 18:05:21,031:magicstore:914:Voting for daren.market
+INFO:2023-12-28 18:05:21,031:magicstore:914:Click node: Visit project page NodeId(438) enter
+INFO:2023-12-28 18:05:31,305:magicstore:914:Click node: Yes/No radio NodeId(454) mouse
+INFO:2023-12-28 18:05:32,021:magicstore:914:Click node: Next NodeId(449) mouse
+INFO:2023-12-28 18:05:32,917:magicstore:914:Click node: Confirm NodeId(469) mouse
+INFO:2023-12-28 18:05:36,774:metamask:914:Attaching to target id=E156E66EF9D42CF917B037B470C568B5
+INFO:2023-12-28 18:05:36,822:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:05:36,826:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:05:39,098:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:05:39,111:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/b3a59cf0-a5ab-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:05:39,216:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:05:41,671:magicstore:914:Click node: Collapse NodeId(478) mouse
+INFO:2023-12-28 18:05:42,131:magicstore:914:Click node: Close task NodeId(489) touch
+INFO:2023-12-28 18:05:45,722:magicstore:914:Voting node NodeId(405)
+INFO:2023-12-28 18:05:45,725:magicstore:914:Click node:  NodeId(501) touch
+INFO:2023-12-28 18:05:49,579:magicstore:914:Click node: Vote NodeId(513) touch
+INFO:2023-12-28 18:05:51,383:magicstore:914:Voting for moonsale.com
+INFO:2023-12-28 18:05:51,383:magicstore:914:Click node: Visit project page NodeId(527) enter
+INFO:2023-12-28 18:06:01,663:magicstore:914:Click node: Yes/No radio NodeId(547) mouse
+INFO:2023-12-28 18:06:02,134:magicstore:914:Click node: Next NodeId(538) mouse
+INFO:2023-12-28 18:06:03,262:magicstore:914:Click node: Confirm NodeId(558) mouse
+INFO:2023-12-28 18:06:07,725:metamask:914:Attaching to target id=229A4E635E736BDDFB05D2D5F963BA43
+INFO:2023-12-28 18:06:07,751:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:06:07,777:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:06:10,092:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:06:10,106:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/c618f8a0-a5ab-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:06:10,193:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:06:12,115:magicstore:914:Click node: Collapse NodeId(567) mouse
+INFO:2023-12-28 18:06:14,755:magicstore:914:Click node: Close task NodeId(505) touch
+INFO:2023-12-28 18:06:18,671:magicstore:914:Voting node NodeId(406)
+INFO:2023-12-28 18:06:18,675:magicstore:914:Click node:  NodeId(580) touch
+INFO:2023-12-28 18:06:21,634:magicstore:914:Click node: Vote NodeId(592) touch
+INFO:2023-12-28 18:06:22,983:magicstore:914:Voting for credefi.finance
+INFO:2023-12-28 18:06:22,983:magicstore:914:Click node: Visit project page NodeId(606) enter
+INFO:2023-12-28 18:06:33,239:magicstore:914:Click node: Yes/No radio NodeId(626) mouse
+INFO:2023-12-28 18:06:35,047:magicstore:914:Click node: Next NodeId(617) mouse
+INFO:2023-12-28 18:06:36,677:magicstore:914:Click node: Confirm NodeId(637) mouse
+INFO:2023-12-28 18:06:44,546:metamask:914:Attaching to target id=179C7A60D442271884E5FB2643F28033
+INFO:2023-12-28 18:06:44,596:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:06:44,601:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:06:46,862:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:06:46,881:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/dc091f00-a5ab-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:06:46,969:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:06:49,094:magicstore:914:Click node: Collapse NodeId(646) mouse
+INFO:2023-12-28 18:06:50,333:magicstore:914:Click node: Close task NodeId(584) touch
+INFO:2023-12-28 18:06:54,628:magicstore:914:Voting node NodeId(407)
+INFO:2023-12-28 18:06:54,631:magicstore:914:Click node:  NodeId(659) touch
+INFO:2023-12-28 18:06:57,707:magicstore:914:Click node: Vote NodeId(671) touch
+INFO:2023-12-28 18:06:59,460:magicstore:914:Voting for nfts2me.com
+INFO:2023-12-28 18:06:59,460:magicstore:914:Click node: Visit project page NodeId(685) enter
+INFO:2023-12-28 18:07:09,729:magicstore:914:Click node: Yes/No radio NodeId(701) mouse
+INFO:2023-12-28 18:07:09,814:magicstore:914:Click node: Next NodeId(696) mouse
+INFO:2023-12-28 18:07:10,634:magicstore:914:Click node: Confirm NodeId(716) mouse
+INFO:2023-12-28 18:07:14,120:metamask:914:Attaching to target id=76B59D961FE87C1EE4E1BA465902552E
+INFO:2023-12-28 18:07:14,165:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:07:14,169:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:07:16,540:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:07:16,557:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/edaaabc0-a5ab-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:07:16,622:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:07:19,123:magicstore:914:Click node: Collapse NodeId(725) mouse
+INFO:2023-12-28 18:07:19,472:magicstore:914:Click node: Close task NodeId(663) touch
+INFO:2023-12-28 18:07:23,981:magicstore:914:Voting node NodeId(408)
+INFO:2023-12-28 18:07:23,984:magicstore:914:Click node:  NodeId(738) touch
+INFO:2023-12-28 18:07:28,014:magicstore:914:Click node: Vote NodeId(750) touch
+INFO:2023-12-28 18:07:28,765:magicstore:914:Voting for www.obvious.technology
+INFO:2023-12-28 18:07:28,765:magicstore:914:Click node: Visit project page NodeId(764) enter
+INFO:2023-12-28 18:07:39,047:magicstore:914:Click node: Yes/No radio NodeId(784) mouse
+INFO:2023-12-28 18:07:39,196:magicstore:914:Click node: Next NodeId(775) mouse
+INFO:2023-12-28 18:07:40,012:magicstore:914:Click node: Confirm NodeId(795) mouse
+INFO:2023-12-28 18:07:44,206:metamask:914:Attaching to target id=87AA4E78F34B59D2F01DA19DDBE98D45
+INFO:2023-12-28 18:07:44,287:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:07:44,356:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:07:46,570:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:07:46,574:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/ff8c4ec0-a5ab-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:07:46,650:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:07:47,952:magicstore:914:Click node: Collapse NodeId(795) mouse
+INFO:2023-12-28 18:07:49,935:magicstore:914:Click node: Close task NodeId(742) touch
+INFO:2023-12-28 18:07:54,039:magicstore:914:Voting node NodeId(409)
+INFO:2023-12-28 18:07:54,067:magicstore:914:Click node:  NodeId(817) touch
+INFO:2023-12-28 18:07:57,488:magicstore:914:Click node: Vote NodeId(829) touch
+INFO:2023-12-28 18:07:58,973:magicstore:914:Voting for wombex.finance
+INFO:2023-12-28 18:07:58,974:magicstore:914:Click node: Visit project page NodeId(843) enter
+INFO:2023-12-28 18:08:09,271:magicstore:914:Click node: Yes/No radio NodeId(859) mouse
+INFO:2023-12-28 18:08:11,144:magicstore:914:Click node: Next NodeId(854) mouse
+INFO:2023-12-28 18:08:11,757:magicstore:914:Click node: Confirm NodeId(874) mouse
+INFO:2023-12-28 18:08:17,627:metamask:914:Attaching to target id=893447DE6FD70D26A6A6672920ED5261
+INFO:2023-12-28 18:08:17,689:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:08:17,716:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:08:20,116:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:08:20,131:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/13831620-a5ac-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:08:20,213:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:08:23,105:magicstore:914:Click node: Collapse NodeId(883) mouse
+INFO:2023-12-28 18:08:23,768:magicstore:914:Click node: Close task NodeId(821) touch
+INFO:2023-12-28 18:08:28,545:magicstore:914:Voting node NodeId(410)
+INFO:2023-12-28 18:08:28,549:magicstore:914:Click node:  NodeId(896) touch
+INFO:2023-12-28 18:08:32,495:magicstore:914:Click node: Vote NodeId(908) touch
+INFO:2023-12-28 18:08:32,768:magicstore:914:Voting for taskon.xyz
+INFO:2023-12-28 18:08:32,768:magicstore:914:Click node: Visit project page NodeId(922) enter
+INFO:2023-12-28 18:08:43,040:magicstore:914:Click node: Yes/No radio NodeId(938) mouse
+INFO:2023-12-28 18:08:44,018:magicstore:914:Click node: Next NodeId(933) mouse
+INFO:2023-12-28 18:08:45,721:magicstore:914:Click node: Confirm NodeId(953) mouse
+INFO:2023-12-28 18:08:49,058:metamask:914:Attaching to target id=9B1AF9E9EB7883BB5D0CA8A33735CF1C
+INFO:2023-12-28 18:08:49,089:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:08:49,092:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:08:51,716:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:08:51,733:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/263d8cf0-a5ac-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:08:51,798:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:08:54,674:magicstore:914:Click node: Collapse NodeId(962) mouse
+INFO:2023-12-28 18:08:54,928:magicstore:914:Click node: Close task NodeId(900) touch
+INFO:2023-12-28 18:08:59,099:magicstore:914:Voting node NodeId(411)
+INFO:2023-12-28 18:08:59,102:magicstore:914:Click node:  NodeId(975) touch
+INFO:2023-12-28 18:09:02,245:magicstore:914:Click node: Vote NodeId(987) touch
+INFO:2023-12-28 18:09:04,592:magicstore:914:Voting for app.frfi.io
+INFO:2023-12-28 18:09:04,592:magicstore:914:Click node: Visit project page NodeId(1001) enter
+INFO:2023-12-28 18:09:14,861:magicstore:914:Click node: Yes/No radio NodeId(1017) mouse
+INFO:2023-12-28 18:09:15,817:magicstore:914:Click node: Next NodeId(1012) mouse
+INFO:2023-12-28 18:09:16,408:magicstore:914:Click node: Confirm NodeId(1032) mouse
+INFO:2023-12-28 18:09:21,833:metamask:914:Attaching to target id=953A2A02F67567F95698F43C9E44E881
+INFO:2023-12-28 18:09:21,873:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:09:21,884:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:09:24,140:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:09:24,165:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/39c98490-a5ac-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:09:24,251:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:09:25,761:magicstore:914:Click node: Collapse NodeId(1032) mouse
+INFO:2023-12-28 18:09:26,830:magicstore:914:Click node: Close task NodeId(979) touch
+INFO:2023-12-28 18:09:31,077:magicstore:914:Voting node NodeId(412)
+INFO:2023-12-28 18:09:31,102:magicstore:914:Click node:  NodeId(1048) touch
+INFO:2023-12-28 18:09:35,298:magicstore:914:Click node: Vote NodeId(1060) touch
+INFO:2023-12-28 18:09:36,383:magicstore:914:Voting for wallmer.com
+INFO:2023-12-28 18:09:36,383:magicstore:914:Click node: Visit project page NodeId(1074) enter
+INFO:2023-12-28 18:09:46,644:magicstore:914:Click node: Yes/No radio NodeId(1090) mouse
+INFO:2023-12-28 18:09:47,910:magicstore:914:Click node: Next NodeId(1085) mouse
+INFO:2023-12-28 18:09:48,038:magicstore:914:Click node: Confirm NodeId(1105) mouse
+INFO:2023-12-28 18:09:51,733:metamask:914:Attaching to target id=227BD87A10423503979993330DBBE43A
+INFO:2023-12-28 18:09:51,788:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:09:51,813:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:09:54,167:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:09:54,184:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/4b9de120-a5ac-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:09:54,283:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:09:55,456:magicstore:914:Click node: Collapse NodeId(1114) mouse
+INFO:2023-12-28 18:09:55,961:magicstore:914:Click node: Close task NodeId(1052) touch
+INFO:2023-12-28 18:10:00,635:magicstore:914:Voting node NodeId(413)
+INFO:2023-12-28 18:10:00,645:magicstore:914:Click node:  NodeId(1127) touch
+INFO:2023-12-28 18:10:05,355:magicstore:914:Click node: Vote NodeId(1139) touch
+INFO:2023-12-28 18:10:05,522:magicstore:914:Voting for cityofdreams.io
+INFO:2023-12-28 18:10:05,522:magicstore:914:Click node: Visit project page NodeId(1153) enter
+INFO:2023-12-28 18:10:15,800:magicstore:914:Click node: Yes/No radio NodeId(1169) mouse
+INFO:2023-12-28 18:10:17,168:magicstore:914:Click node: Next NodeId(1164) mouse
+INFO:2023-12-28 18:10:18,597:magicstore:914:Click node: Confirm NodeId(1184) mouse
+INFO:2023-12-28 18:10:22,509:metamask:914:Attaching to target id=4045D4C190B7FB53B47E9303A212EA22
+INFO:2023-12-28 18:10:22,565:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:10:22,628:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:10:24,928:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:10:24,941:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/5df32d80-a5ac-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:10:25,006:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:10:27,755:magicstore:914:Click node: Collapse NodeId(1193) mouse
+INFO:2023-12-28 18:10:28,397:magicstore:914:Click node: Close task NodeId(1131) touch
+INFO:2023-12-28 18:10:42,900:magicstore:914:Click node: Next page NodeId(1326) touch
+INFO:2023-12-28 18:10:44,886:magicstore:914:Click node: Next page NodeId(1326) enter
+INFO:2023-12-28 18:10:46,095:magicstore:914:Click node: Next page NodeId(1326) enter
+INFO:2023-12-28 18:10:50,507:magicstore:914:Voting page #2
+INFO:2023-12-28 18:10:53,019:magicstore:914:Voting node NodeId(1468)
+INFO:2023-12-28 18:10:55,023:magicstore:914:Click node: Vote NodeId(1487) touch
+INFO:2023-12-28 18:10:56,837:magicstore:914:Voting for tribes.vemp.xyz
+INFO:2023-12-28 18:10:56,838:magicstore:914:Click node: Visit project page NodeId(1502) enter
+INFO:2023-12-28 18:11:07,960:magicstore:914:Click node: Yes/No radio NodeId(1518) mouse
+INFO:2023-12-28 18:11:09,272:magicstore:914:Click node: Next NodeId(1513) mouse
+INFO:2023-12-28 18:11:10,039:magicstore:914:Click node: Confirm NodeId(1533) mouse
+INFO:2023-12-28 18:11:13,918:metamask:914:Attaching to target id=B76AFFFCA31DB3CA051E6F794D41ED41
+INFO:2023-12-28 18:11:13,978:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:11:13,990:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:11:16,183:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:11:16,203:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/7c974370-a5ac-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:11:16,267:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:11:17,379:magicstore:914:Click node: Collapse NodeId(1542) mouse
+INFO:2023-12-28 18:11:17,986:magicstore:914:Click node: Close task NodeId(1553) touch
+INFO:2023-12-28 18:11:21,755:magicstore:914:Voting node NodeId(1469)
+INFO:2023-12-28 18:11:21,759:magicstore:914:Click node:  NodeId(1565) touch
+INFO:2023-12-28 18:11:25,096:magicstore:914:Click node: Vote NodeId(1577) touch
+INFO:2023-12-28 18:11:25,272:magicstore:914:Voting for www.bitstore.com
+INFO:2023-12-28 18:11:25,272:magicstore:914:Click node: Visit project page NodeId(1591) enter
+INFO:2023-12-28 18:11:35,573:magicstore:914:Click node: Yes/No radio NodeId(1607) mouse
+INFO:2023-12-28 18:11:36,782:magicstore:914:Click node: Next NodeId(1602) mouse
+INFO:2023-12-28 18:11:37,941:magicstore:914:Click node: Confirm NodeId(1622) mouse
+INFO:2023-12-28 18:11:41,988:metamask:914:Attaching to target id=A25FF228C35EEED37A9B75F7C218D131
+INFO:2023-12-28 18:11:42,032:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:11:42,059:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:11:43,535:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:11:43,545:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/8d554e00-a5ac-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:11:43,600:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:11:45,291:magicstore:914:Click node: Collapse NodeId(1622) mouse
+INFO:2023-12-28 18:11:46,541:magicstore:914:Click node: Close task NodeId(1569) touch
+INFO:2023-12-28 18:11:50,792:magicstore:914:Voting node NodeId(1470)
+INFO:2023-12-28 18:11:50,815:magicstore:914:Click node:  NodeId(1644) touch
+INFO:2023-12-28 18:11:54,993:magicstore:914:Click node: Vote NodeId(1656) touch
+INFO:2023-12-28 18:11:56,167:magicstore:914:Voting for open.name
+INFO:2023-12-28 18:11:56,167:magicstore:914:Click node: Visit project page NodeId(1670) enter
+INFO:2023-12-28 18:12:06,498:magicstore:914:Click node: Yes/No radio NodeId(1686) mouse
+INFO:2023-12-28 18:12:08,016:magicstore:914:Click node: Next NodeId(1681) mouse
+INFO:2023-12-28 18:12:09,196:magicstore:914:Click node: Confirm NodeId(1701) mouse
+INFO:2023-12-28 18:12:12,902:metamask:914:Attaching to target id=A0260AE47B085266565BB44E05174FD8
+INFO:2023-12-28 18:12:12,937:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:12:12,941:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:12:15,420:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:12:15,433:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/9fbd8620-a5ac-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:12:15,513:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:12:18,490:magicstore:914:Click node: Collapse NodeId(1701) mouse
+INFO:2023-12-28 18:12:20,528:magicstore:914:Click node: Close task NodeId(1648) touch
+INFO:2023-12-28 18:12:25,756:magicstore:914:Voting node NodeId(1471)
+INFO:2023-12-28 18:12:25,779:magicstore:914:Click node:  NodeId(1723) touch
+INFO:2023-12-28 18:12:31,496:magicstore:914:Click node: Vote NodeId(1735) touch
+INFO:2023-12-28 18:12:33,073:magicstore:914:Voting for halo.social
+INFO:2023-12-28 18:12:33,073:magicstore:914:Click node: Visit project page NodeId(1749) enter
+INFO:2023-12-28 18:12:43,327:magicstore:914:Click node: Yes/No radio NodeId(1765) mouse
+INFO:2023-12-28 18:12:44,013:magicstore:914:Click node: Next NodeId(1760) mouse
+INFO:2023-12-28 18:12:44,862:magicstore:914:Click node: Confirm NodeId(1780) mouse
+INFO:2023-12-28 18:12:49,865:metamask:914:Attaching to target id=FF4E27FA13A64F8680CCB84246149F83
+INFO:2023-12-28 18:12:49,916:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:12:49,985:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:12:52,767:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:12:52,781:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/b5c74f00-a5ac-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:12:52,842:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:12:55,234:magicstore:914:Click node: Collapse NodeId(1789) mouse
+INFO:2023-12-28 18:12:56,561:magicstore:914:Click node: Close task NodeId(1727) touch
+INFO:2023-12-28 18:13:00,633:magicstore:914:Voting node NodeId(1472)
+INFO:2023-12-28 18:13:00,636:magicstore:914:Click node:  NodeId(1802) touch
+INFO:2023-12-28 18:13:03,671:magicstore:914:Click node: Vote NodeId(1814) touch
+INFO:2023-12-28 18:13:04,986:magicstore:914:Voting for creator.voiceflow.com
+INFO:2023-12-28 18:13:04,986:magicstore:914:Click node: Visit project page NodeId(1828) enter
+INFO:2023-12-28 18:13:15,300:magicstore:914:Click node: Yes/No radio NodeId(1848) mouse
+INFO:2023-12-28 18:13:16,162:magicstore:914:Click node: Next NodeId(1839) mouse
+INFO:2023-12-28 18:13:17,470:magicstore:914:Click node: Confirm NodeId(1859) mouse
+INFO:2023-12-28 18:13:22,339:metamask:914:Attaching to target id=EB2A11AE7E71B38ABAEDF9756CEB59E2
+INFO:2023-12-28 18:13:22,366:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:13:22,368:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:13:24,758:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:13:24,772:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/c9222480-a5ac-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:13:24,850:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:13:26,865:magicstore:914:Click node: Collapse NodeId(1859) mouse
+INFO:2023-12-28 18:13:28,961:magicstore:914:Click node: Close task NodeId(1806) touch
+INFO:2023-12-28 18:13:32,697:magicstore:914:Voting node NodeId(1473)
+INFO:2023-12-28 18:13:32,722:magicstore:914:Click node:  NodeId(1881) touch
+INFO:2023-12-28 18:13:36,168:magicstore:914:Click node: Vote NodeId(1893) touch
+INFO:2023-12-28 18:13:37,784:magicstore:914:Voting for app.trava.finance
+INFO:2023-12-28 18:13:37,785:magicstore:914:Click node: Visit project page NodeId(1907) enter
+INFO:2023-12-28 18:13:48,039:magicstore:914:Click node: Yes/No radio NodeId(1923) mouse
+INFO:2023-12-28 18:13:49,837:magicstore:914:Click node: Next NodeId(1918) mouse
+INFO:2023-12-28 18:13:50,452:magicstore:914:Click node: Confirm NodeId(1938) mouse
+INFO:2023-12-28 18:13:54,019:metamask:914:Attaching to target id=54991E13D989105064C2ABF0755CD5D0
+INFO:2023-12-28 18:13:54,061:metamask:914:MetaMask signature request
+INFO:2023-12-28 18:13:54,077:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html
+INFO:2023-12-28 18:13:56,335:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction
+INFO:2023-12-28 18:13:56,350:metamask:914:handling chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/notification.html#confirm-transaction/dc06b890-a5ac-11ee-903a-c39499b00db9/signature-request
+INFO:2023-12-28 18:13:56,432:magicstore:914:Click node:  NodeId(50) mouse
+INFO:2023-12-28 18:13:59,365:magicstore:914:Click node: Collapse NodeId(1938) mouse
