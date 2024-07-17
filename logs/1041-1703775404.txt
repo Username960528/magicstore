@@ -1,9 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\Administrator\magicstore\asd.py", line 470, in <module>
-    trio.run(worker, sys.argv[1], restrict_keyboard_interrupt_to_checkpoints=True)
-  File "C:\Python\Lib\site-packages\trio\_core\_run.py", line 2262, in run
-    raise runner.main_task_outcome.error
-  File "C:\Users\Administrator\magicstore\asd.py", line 409, in worker
-    acc = utils.ACCOUNTS['account'][sID]
-          ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
-KeyError: '1041'
