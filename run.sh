@@ -12,4 +12,4 @@ sid=$1
 . venv/bin/activate
 echo "Profile #${sid} in ${delay}sec"
 sleep $delay
-python ./asd.py $sid 2>&1 | tee logs/$sid-$time.txt
+python ./magicstore_automation.py $sid 2>&1 | tee logs/$sid-$time.txt
