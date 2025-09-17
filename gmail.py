@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+Работа с GMail через CDP для извлечения кода подтверждения.
+"""
 
 import logging
 import re
@@ -14,10 +17,15 @@ logger = logging.getLogger('magicstore')
 
 
 class CaptchaRequiredError(RuntimeError):
+    """Для входа в Gmail требуется reCAPTCHA (ручное вмешательство)"""
     pass
 
 
 async def extract_confirmation_code_from_gmail(conn, acc, url='https://gmail.com', force_new_tab=False):
+    """Открыть Gmail, выполнить вход и извлечь код подтверждения из письма MagicID.
+
+    Возвращает строку с кодом либо None, если письмо не найдено.
+    """
     target_id = await find_or_create_tab(conn, 'mail.google.com')
     logger.info('Attaching to target id=%s', target_id)
     async with conn.open_session(target_id) as session:

@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Обработка окон/попапов MetaMask через CDP:
+- Разблокировка, импорт/восстановление, подтверждение/подпись запросов.
+"""
 
 import logging
 import time
@@ -16,10 +20,15 @@ logger = logging.getLogger('metamask')
 
 
 class MetamaskNotLoggedInError (RuntimeError):
+    """MetaMask не авторизован/не сконфигурирован для данного профиля."""
     pass
 
 
 async def metamask_signature_request_(connection, target_id, profile_info):
+    """Обработать окно MetaMask: разблокировать/подтвердить/подписать.
+
+    Возвращает True при успешной подписи.
+    """
     logger.info('Attaching to target id=%s', target_id)
     async with connection.open_session(target_id) as session:
         await page.enable()
@@ -54,7 +63,7 @@ async def metamask_signature_request_(connection, target_id, profile_info):
                     pass # break
                 elif any(map(url.endswith, ['#restore-vault',
                                             '#onboarding/import-with-recovery-phrase'])):
-                    #root = await dom.query_selector(root.node_id, 'form.create-new-vault__form')
+                    # Восстановление/импорт кошелька из seed-фразы
                     nodes = await query_selector_all('div.import-srp__srp-word input[type="password"]')
                     for node, word in zip(nodes, wallet['words']):
                         await node_insert_text(node, word)
@@ -85,6 +94,10 @@ async def metamask_signature_request_(connection, target_id, profile_info):
 
 
 async def metamask_signature_request(conn, target_id, acc):
+    """Дождаться завершения попапа MetaMask либо заново перехватить окно.
+
+    Обработка гонок при автозакрытии и повторном открытии попапа.
+    """
     async def wait_tab_closed(events):
         nonlocal popup_is_closed
         async for event in events:
@@ -101,4 +114,5 @@ async def metamask_signature_request(conn, target_id, acc):
 
 
 def is_metamask_url(url):
+    """Проверить, что URL принадлежит расширению MetaMask (ID в профиле)."""
     return url.startswith('chrome-extension://jfmngdpfgiljdfoaojnioanneidgipjm/')

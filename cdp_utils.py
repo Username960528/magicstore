@@ -1,3 +1,10 @@
+"""
+Обёртки над Chrome DevTools Protocol (CDP) для работы с Trio:
+- Поиск и взаимодействие с DOM (CSS/XPath/теневые корни)
+- Синтетический ввод (мышь/тач/клавиатура)
+- Ожидание событий с таймаутами и фильтрами
+"""
+
 from contextlib import nullcontext
 import logging
 import time
@@ -16,7 +23,11 @@ def dict_slice(d, keys):
 
 
 async def dispatch_key_press(key, sleep=0.2, **kvargs):
-    # TODO kv0, kv2, code, etc
+    """Отправить нажатие клавиши с опциональной вставкой символа.
+
+    key: имя клавиши (например, 'Enter').
+    text/unmodified_text: можно передать текст символа для события 'char'.
+    """
     logger.debug("Press key: %s", key)
     kv1 = {k: kvargs[k] for k in ['text', 'unmodified_text'] if k in kvargs}
     await input_.dispatch_key_event('keyDown', key=key)
@@ -29,6 +40,13 @@ async def dispatch_key_press(key, sleep=0.2, **kvargs):
 
 async def click_node(node, focus=True, type='mouse', name='', count=1,
                      send_text=False, **kvargs):
+    """Клик по узлу: мышь/тач или нажатие Enter.
+
+    focus: фокус на элемент перед действием.
+    type: 'mouse' | 'touch' | 'enter'.
+    name: метка для логов.
+    count: количество кликов (для мыши).
+    """
     logger.info('Click node: %s %s %s', name, node, type)
     if focus: await dom.focus(node)
     box = await dom.get_box_model(node)
@@ -51,16 +69,19 @@ async def click_node(node, focus=True, type='mouse', name='', count=1,
 
 
 async def node_text(node):
+    """Вернуть текстовое содержимое узла (без HTML-тегов)."""
     nid = ensure_node_id(node)
     return re.sub(r'<.+?>', '', await dom.get_outer_html(nid))
 
 
 async def node_attributes(node):
+    """Вернуть атрибуты узла в виде словаря."""
     attrs = await dom.get_attributes(node)
     return dict(zip(attrs[::2], attrs[1::2]))
 
 
 async def find_tab(conn, query):
+    """Найти вкладку по подстроке URL или по предикату."""
     print(query)
     fn = (lambda x: query in x.url) if isinstance(query, str) else query
     xs = (x.target_id for x in await target.get_targets() \
@@ -69,6 +90,7 @@ async def find_tab(conn, query):
 
 
 async def find_or_create_tab(conn, query, url='about:blank', force_new_tab=False):
+    """Найти вкладку по query либо создать новую (about:blank)."""
     if force_new_tab or not (target_id := await find_tab(conn, query)):
         logger.info('Creating new target')
         target_id = await target.create_target(url)
@@ -78,6 +100,7 @@ async def find_or_create_tab(conn, query, url='about:blank', force_new_tab=False
 
 
 async def node_insert_text(node, text, press_enter=False):
+    """Вставить текст в активное поле; опционально нажать Enter."""
     if node: await dom.focus(node)
     await input_.insert_text(text)
     if press_enter:
@@ -85,15 +108,18 @@ async def node_insert_text(node, text, press_enter=False):
 
 
 class QuerySelectorError(RuntimeError):
+    """Ошибка при поиске узла по селектору/параметрам."""
     pass
 
 
 def ensure_node_id(x):
+    """Вернуть `node_id` для объекта узла либо само значение, если это int."""
     return x.node_id if isinstance(x, dom.Node) else x
 
 
 async def _query_selector_(fn, query, root=None, try_hard=False,
                            errorp=True, delay=1, **kvargs):
+    """Универсальная обёртка поиска узла(ов) с повторами/таймаутами."""
     if not root:
         root = await dom.get_document()
     i, root_id = 0, ensure_node_id(root)
@@ -108,6 +134,7 @@ async def _query_selector_(fn, query, root=None, try_hard=False,
 
 
 def _query_selector_args_(x, *args, mode=None, **kvargs):
+    """Распаковать позиционные аргументы для функций query_selector*."""
     match args:
         case []:
             return None, x, mode
@@ -118,6 +145,7 @@ def _query_selector_args_(x, *args, mode=None, **kvargs):
 
 
 async def query_selector_xpath(root, query, first_only=False):
+    """Поиск узла(ов) по XPath через perform_search/get_search_results."""
     search_id, nres = await dom.perform_search(query)
     if nres > 0:
         n = 1 if first_only else nres
@@ -128,6 +156,10 @@ async def query_selector_xpath(root, query, first_only=False):
 
 
 async def query_selector(query, *args, **kvargs):
+    """Поиск первого подходящего узла по CSS/XPath.
+
+    Поддерживает формы вызова: (root, query, mode='xpath'|'css') или (query).
+    """
     [root, query, mode] = _query_selector_args_(query, *args, **kvargs)
     match mode or 'css':
         case 'css':
@@ -138,6 +170,7 @@ async def query_selector(query, *args, **kvargs):
 
 
 async def query_selector_all(query, *args, **kvargs):
+    """Поиск всех подходящих узлов по CSS/XPath."""
     [root, query, mode] = _query_selector_args_(query, *args, **kvargs)
     match mode or 'css':
         case 'css':
@@ -148,6 +181,7 @@ async def query_selector_all(query, *args, **kvargs):
 
 
 async def query_selector_shadow(root, queries, **kvargs):
+    """Поиск узла в цепочке теневых корней: ['w3m-modal', ..., 'button']."""
     match queries:
         case [q]:
             return await query_selector(root, q, **kvargs)
@@ -161,12 +195,14 @@ async def query_selector_shadow(root, queries, **kvargs):
 
 
 async def query_and_click_node(query, *args, **kvargs):
+    """Найти узел по селектору и кликнуть по нему (если найден)."""
     node = await query_selector(query, *args, **kvargs)
     node and await click_node(node, **kvargs)
     return node
 
 
 def maybe_move_on_after(timeout):
+    """Вернуть контекст-менеджер таймаута либо пустой контекст, если timeout=None."""
     class Empty: pass
     if timeout:
         ctxmgr = move_on_after(timeout)
@@ -178,8 +214,12 @@ def maybe_move_on_after(timeout):
 
 
 async def afind(aiter, pred, each=None, k=1, timeout=None,
-                error_msg = 'Timeout in afind', noerror=False,
+                error_msg='Timeout in afind', noerror=False,
                 default=None):
+    """Найти k‑е событие в асинхронном итерируемом, удовлетворяющее предикату.
+
+    timeout: секунды; noerror=True — вернуть default вместо исключения.
+    """
     with maybe_move_on_after(timeout) as scope:
         i = 0
         async for x in aiter:

@@ -1,4 +1,8 @@
-User
+"""
+Сценарии автоматизации Magic Store и Zealy:
+- Логин/линк кошелька, выполнение квестов, голосования, получение метрик.
+Используется Trio + CDP; браузерный профиль запускается через AdsPower.
+"""
 import json
 import logging
 import os
@@ -28,6 +32,7 @@ from utils import *
 
 
 async def zealy_login(session):
+    """Войти в Zealy (через Discord OAuth при необходимости)."""
     logger.info("Zealy login")
     async with session.wait_for(page.FrameStoppedLoading):
         await page.navigate('https://zealy.io/login')
@@ -53,7 +58,7 @@ async def zealy_login(session):
         #await afind(events, lambda x: 'discord.com/oauth2/authorize' in x.url,
         #            timeout=30)
 
-        # FIXME: да-да, лапша. Выделить в отдельные функции
+        # FIXME: да-да, лапша. Стоит выделить в отдельные функции
         root = await dom.get_document()
         buttons, found = await query_selector_all(root, 'button', try_hard=5, delay=5), False
         for btn in buttons:
@@ -67,6 +72,7 @@ async def zealy_login(session):
 
 
 async def zealy_link_wallet(conn, session, acc):
+    """Привязать кошелёк к Zealy через Web3Modal и MetaMask."""
     root = await dom.get_document()
     for node in await dom.query_selector_all(root.node_id, 'div.rounded-component-md'):
         print(node)
@@ -97,6 +103,7 @@ async def zealy_link_wallet(conn, session, acc):
 
 
 async def zealy_verification(conn, acc, target_id=None):
+    """Выполнить начальные задания/верификации Zealy и отметить прогресс."""
     if acc.get('zealy', {}).get('first_tasks_completed', False):
         return
 
@@ -154,6 +161,10 @@ async def zealy_verification(conn, acc, target_id=None):
 
 
 async def zealy_solver(conn, session, acc, task, tid):
+    """Решить конкретное задание Zealy по идентификатору tid.
+
+    Возвращает (успешно: bool, пропущено: bool).
+    """
     async def open_task():
         while True:
             try:
@@ -274,6 +285,7 @@ async def zealy_solver(conn, session, acc, task, tid):
 
 
 async def zealy_quests(conn, acc, target_id=None):
+    """Итерироваться по заданиям Zealy и решать их по одному до исчерпания."""
     if acc.get('zealy', {}).get('done', False):
         return
 
@@ -345,6 +357,7 @@ async def is_profile_filled(root):
 
 
 async def worker__voting(sID):
+    """Воркер: логин, заполнение профиля, Zealy верификация и голосование."""
     acc = utils.ACCOUNTS['account'][sID]
     logger.info('Starting %s browser profile', acc['serial_number'])
     cdp_uri = ads_request('/api/v1/browser/start',
@@ -388,6 +401,7 @@ async def worker__voting(sID):
 
 
 async def worker(sID):
+    """Воркер: логин на Magic Store, Gitcoin проверка, выполнение квестов Zealy."""
     acc = utils.ACCOUNTS['account'][sID]
     logger.info('Starting %s browser profile', acc['serial_number'])
     cdp_uri = ads_request('/api/v1/browser/start',
@@ -456,4 +470,3 @@ if __name__ == '__main__':
         finally:
             unlock(ifile)
     trio.run(worker, sys.argv[1], restrict_keyboard_interrupt_to_checkpoints=True)
-

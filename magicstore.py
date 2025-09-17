@@ -1,3 +1,9 @@
+"""
+Действия для сайта Magic Store:
+- Открытие настроек/профиля, заполнение данных, подтверждение email.
+- Логин через EVM Wallet (MetaMask), голосования, Gitcoin, получение XP.
+"""
+
 import logging
 import re
 import time
@@ -41,6 +47,7 @@ REFURLS = [
 USE_REFS = False
 
 async def magicstore_open_settings(conn, session):
+    """Открыть страницу настроек профиля Magic Store для текущей сессии."""
     def foo(fn):
         return lambda e: (e.target_info.target_id == session.target_id
                      and fn(debug(e.target_info.url)))
@@ -64,6 +71,10 @@ async def magicstore_open_settings(conn, session):
 
 
 async def magicstore_fill_profile(conn, target_id, acc):
+    """Заполнить профиль: логин, отображаемое имя, email и подтвердить код с почты.
+
+    acc — словарь аккаунта с полем `mail` (address, password).
+    """
     async def confirm_input(node):
         await dom.focus(node)
         await dispatch_key_press('Enter', text='\r', unmodified_text='\r')
@@ -145,6 +156,10 @@ async def magicstore_fill_profile(conn, target_id, acc):
 
 
 async def magicstore_login(conn, acc, target_id=None, force_new_tab=False):
+    """Логин на Magic Store. Возвращает target_id вкладки.
+
+    При необходимости открывает реферальную страницу, инициирует MetaMask подпись.
+    """
     if not target_id:
         target_id = await find_or_create_tab(conn, URL, force_new_tab=force_new_tab)
     await target.activate_target(target_id)
@@ -193,6 +208,7 @@ async def magicstore_login(conn, acc, target_id=None, force_new_tab=False):
 
 
 async def magicstore_open_voting_page(conn, session):
+    """Перейти на страницу заданий для валидации (голосования)."""
     await page.enable()
     await magicstore_open_settings(conn, session)
     async with session.listen(page.NavigatedWithinDocument) as events:
@@ -206,6 +222,10 @@ async def magicstore_open_voting_page(conn, session):
 
 
 async def magicstore_vote_page(conn, session, acc):
+    """Проголосовать по всем доступным пунктам на текущей странице.
+
+    Возвращает количество совершённых голосов.
+    """
     root, voted_at_least_once = (await dom.get_document()).node_id, 0
     for vote in await query_selector_all(root, 'div.profile-container li > article',
                                          try_hard=5, errorp=False):
@@ -229,7 +249,7 @@ async def magicstore_vote_page(conn, session, acc):
             node = await query_selector(vote, 'div.collapsible-open a[data-qa="vote-button"]')
             if 'Voted' in await dom.get_outer_html(node):
                 return voted_at_least_once
-            async with session.wait_for(dom.ChildNodeInserted):
+            async with session.wait_for(dom.ChildNodeItonserted):
                 await click_node(node, type='touch', name='Vote')
         if scope.cancelled_caught:
             raise TimeoutError("Vote button")
@@ -285,6 +305,7 @@ async def magicstore_vote_page(conn, session, acc):
 
 
 async def magicstore_vote(conn, acc, target_id=None):
+    """Обход страниц голосования до исчерпания доступных заданий."""
     logger.info('Gonna vote for all that shit')
     target_id = target_id or await find_or_create_tab(conn, 'magic.store')
     logger.info('Attaching to target %s', target_id)
@@ -327,6 +348,7 @@ async def magicstore_vote(conn, acc, target_id=None):
 
 
 async def magicstore_gitcoin_verify(conn, acc, target_id=None):
+    """Проверить и сохранить Gitcoin Passport score на странице настроек."""
     logger.info('Magicstore gitcoin verification')
     target_id = target_id or await find_or_create_tab(conn, 'magic.store')
     logger.info('Attaching to target %s', target_id)
@@ -366,6 +388,7 @@ async def magicstore_gitcoin_verify(conn, acc, target_id=None):
 
 
 async def magicstore_get_xp(conn, acc, target_id=None):
+    """Получить XP и позицию из страницы кампании и обновить состояние аккаунта."""
     logger.info("Magicstore XP extraction")
     target_id = target_id or await find_or_create_tab(conn, 'magic.store')
     logger.info('Attaching to target %s', target_id)
